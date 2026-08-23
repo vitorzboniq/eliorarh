@@ -22,6 +22,9 @@ node_modules/
 # Documentação — não publicar no GitHub público (portfólio consultoria)
 docs/
 
+# Graphify engine outputs — não publicar no GitHub público
+graphify-out/
+
 # Arquivos do sistema do SO
 .DS_Store
 Thumbs.db
