@@ -19,6 +19,10 @@ tmp/
 # Dependências (se algum dia instalar npm/node packages)
 node_modules/
 
+# Capturas de tela de auditoria e QA — não publicar no GitHub público
+docs/06-auditoria/screenshots/
+docs/04-testes/screenshots/
+
 # Arquivos do sistema do SO
 .DS_Store
 Thumbs.db
