@@ -1,0 +1,1139 @@
+/* ---------- HERO ---------- */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background:
+    radial-gradient(ellipse 900px 700px at 72% 18%, rgba(212, 162, 106, 0.16), transparent 60%),
+    linear-gradient(140deg, var(--plum) 0%, var(--plum-deep) 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 140px 0 40px;
+  /* menos espaço entre o hero e o próximo bloco */
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  right: -8%;
+  width: 620px;
+  height: 620px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(212, 162, 106, 0.22) 0%, rgba(212, 162, 106, 0) 70%);
+  filter: blur(10px);
+  animation: glow 8s ease-in-out infinite;
+}
+
+@keyframes glow {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: .9;
+  }
+
+  50% {
+    transform: scale(1.12);
+    opacity: .55;
+  }
+}
+
+.hero .wrap {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 60px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-eyebrow {
+  color: var(--gold);
+  margin-bottom: 22px;
+}
+
+.hero-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.hero-keywords .dot {
+  color: rgba(212, 162, 106, 0.5);
+  font-size: 16px;
+  line-height: 1;
+}
+
+.hero-copy {
+  transform: translateX(6%);
+}
+
+.hero h1 {
+  color: var(--cream);
+  line-height: 1.14;
+  margin-bottom: 26px;
+  transition: text-shadow .45s ease, transform .45s ease;
+}
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.hero h1:hover {
+  transform: scale(1.01);
+  text-shadow:
+    0 0 10px rgba(212, 162, 106, 0.45),
+    0 0 28px rgba(212, 162, 106, 0.22);
+}
+
+.hero-logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-logo::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 160%;
+  height: 160%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(212, 162, 106, 0.28), transparent 65%);
+  animation: pulse 5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: .55;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.06);
+  }
+}
+
+.hero-logo img {
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  z-index: 2;
+}
+
+/* ---------- SIGNIFICADO ---------- */
+.meaning {
+  background: var(--plum-deep);
+  /* casa com o hero (topo) e o Pilares (base): fundo contínuo */
+  padding: 8px 0;
+  /* bordas topo/base quase inexistentes; moldura roxa só nas laterais */
+}
+
+.meaning .wrap {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 40px;
+  align-items: center;
+  background: var(--cream-soft);
+  border-radius: 24px;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 48px 24px 16px;
+  box-shadow: 0 24px 60px rgba(46, 18, 40, 0.4);
+}
+
+.meaning-mark {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.meaning-mark img {
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  z-index: 2;
+}
+
+.meaning h2 {
+  margin-bottom: 5px;
+}
+
+/* Subtítulo padrão de seção (mauve) — mesmo padrão dos demais blocos */
+.meaning .meaning-sub {
+  color: var(--mauve);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  max-width: 560px;
+}
+
+/* Eyebrow "A marca" — regra específica para vencer `.meaning p`
+   (que aplica grey-mid e faz o texto parecer preto). */
+.meaning .eyebrow {
+  color: var(--mauve);
+}
+
+/* eyebrow herda o padrão claro (mauve) — fundo branco */
+.meaning .etym {
+  font-family: var(--sans);
+  font-size: 13.5px;
+  letter-spacing: 1px;
+  color: var(--mauve);
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+.meaning .etym b {
+  color: var(--plum);
+  font-weight: 700;
+}
+
+.meaning p {
+  font-size: 15px;
+  color: var(--grey-mid);
+  margin-bottom: 12px;
+  max-width: 560px;
+  font-weight: 500;
+}
+
+.meaning blockquote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 17px;
+  color: var(--mauve);
+  /* mesma cor do hebraico (.etym) */
+  border-left: 2px solid var(--gold);
+  padding-left: 16px;
+  margin-top: 16px;
+  max-width: 520px;
+  font-weight: 600;
+}
+
+/* ---------- PILARES ---------- */
+.pillars {
+  background: linear-gradient(180deg, var(--plum-deep), var(--plum));
+  padding: 50px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-head {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 70px;
+}
+
+.section-head h2 {
+  margin-top: 10px;
+}
+
+/* Subtítulo padrão de seção: mauve sobre fundo claro (AA) */
+.section-head p {
+  color: var(--mauve);
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Pilares — seção escura: título cream, subtítulo e eyebrow gold */
+.pillars .section-head h2 {
+  color: var(--cream);
+}
+
+.pillars .section-head p {
+  color: var(--gold);
+}
+
+.pillars .eyebrow {
+  color: var(--gold);
+}
+
+.pillars .section-head {
+  margin-bottom: 40px;
+}
+
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.pillar-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 162, 106, 0.2);
+  padding: 24px 24px;
+  transition: background .35s ease, transform .3s ease, border-color .3s ease;
+}
+
+.pillar-card:hover {
+  background: rgba(212, 162, 106, 0.08);
+  border-color: rgba(212, 162, 106, 0.45);
+  transform: translateY(-3px);
+}
+
+.pillar-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.pillar-glyph {
+  width: 42px;
+  height: 42px;
+  border: 1.4px solid var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--gold);
+  flex-shrink: 0;
+  transition: all .35s ease;
+}
+
+.pillar-card:hover .pillar-glyph {
+  background: var(--gold);
+  color: var(--plum-deep);
+}
+
+.pillar-card h3 {
+  margin-bottom: 0;
+  line-height: 1.3;
+  color: var(--gold);
+}
+
+.pillar-card p {
+  font-size: 14px;
+  color: rgba(242, 233, 226, 0.68);
+  /* Alinha com a primeira letra do título (ícone 42px + gap 14px) */
+  padding-left: 56px;
+  max-width: 360px;
+  line-height: 1.6;
+}
+
+/* ---------- ABORDAGEM / PROCESSO ---------- */
+.process {
+  background: linear-gradient(180deg, var(--plum-deep), var(--plum));
+  padding: 50px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Abordagem — seção escura: título cream, subtítulo gold */
+.process .section-head h2 {
+  color: var(--cream);
+}
+
+.process .section-head p {
+  color: var(--gold);
+}
+
+.process .section-head {
+  margin-bottom: 40px;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1180px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.step {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 162, 106, 0.2);
+  padding: 24px 24px;
+  transition: background .35s ease, transform .3s ease, border-color .3s ease;
+}
+
+.step:hover {
+  background: rgba(212, 162, 106, 0.08);
+  border-color: rgba(212, 162, 106, 0.45);
+  transform: translateY(-4px);
+}
+
+.step-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.step .num {
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  color: var(--gold);
+  border: 1.4px solid var(--gold);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all .35s ease;
+}
+
+.step:hover .num {
+  background: var(--gold);
+  color: var(--plum-deep);
+}
+
+.step h3 {
+  color: var(--gold);
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.step p {
+  font-size: 14px;
+  color: rgba(242, 233, 226, 0.68);
+  /* Alinha com a primeira letra do título (número 42px + gap 12px) */
+  padding-left: 54px;
+  line-height: 1.55;
+  text-wrap: balance;
+}
+
+/* ---------- VALORES ---------- */
+.values {
+  background: linear-gradient(180deg, var(--plum), var(--plum-deep));
+  /* casa com o Pilares (termina em plum) */
+  padding: 8px 0;
+  /* bordas topo/base quase inexistentes; moldura roxa nas laterais */
+  text-align: center;
+}
+
+.values .wrap {
+  background: var(--cream-soft);
+  border-radius: 24px;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 48px 24px 16px;
+  box-shadow: 0 24px 60px rgba(46, 18, 40, 0.4);
+}
+
+#valores .section-head {
+  margin-bottom: 0;
+}
+
+/* Fundo claro (cream-soft): eyebrow e subtítulo seguem o padrão claro (mauve) */
+.value-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.value-pills span {
+  border: 1px solid rgba(71, 28, 61, 0.25);
+  color: var(--plum);
+  background: rgba(232, 199, 154, 0.35);
+  /* mesma cor dos cards claros */
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: .4px;
+  transition: all .3s ease;
+}
+
+.value-pills span:hover {
+  background: var(--plum);
+  color: var(--gold);
+  border-color: var(--gold);
+  box-shadow: 0 0 18px rgba(212, 162, 106, 0.45);
+  /* glow dourado */
+}
+
+/* Keyword strip "jeito de fazer" no rodapé da Abordagem (fundo escuro) —
+   mesmo formato do .hero-keywords (dourado, caixa alta, letter-spacing) */
+.process-keywords {
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 11.5px;
+  /* um pouco menor que o do hero (13px) */
+}
+
+/* ---------- PARCEIROS (linha de molduras) ---------- */
+.partners {
+  background: var(--cream-soft);
+  padding: 40px 0;
+}
+
+.partners .training-sub {
+  margin-bottom: 26px;
+}
+
+.partner-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.partner-item {
+  position: relative;
+  text-align: center;
+}
+
+/* Moldura no padrão do bloco "Nossa metodologia" (.method-step):
+   fundo dourado suave, borda sutil, cantos retos, hover com sombra */
+.partner-frame {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  background: rgba(232, 199, 154, 0.35);
+  border: 1px solid rgba(71, 28, 61, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: box-shadow .3s ease, transform .3s ease, border-color .3s ease;
+}
+
+.partner-frame:hover {
+  box-shadow: 0 12px 28px rgba(75, 34, 66, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(71, 28, 61, 0.6);
+}
+
+.partner-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Descrição em tooltip — aparece ao passar o mouse sobre a logo */
+.partner-name {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+  background: rgba(46, 18, 40, 0.88);
+  color: var(--cream);
+  font-size: 12.5px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: .3px;
+  text-align: center;
+  text-wrap: balance;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+
+.partner-item:hover .partner-name {
+  opacity: 1;
+}
+
+/* ---------- QUOTES (faixas de citação) ---------- */
+/* Seguem o padrão do blockquote do Significado (serif itálico 19px,
+   borda dourada à esquerda, max-width 520px) */
+.quote-band {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  /* bem próxima do fim do bloco */
+}
+
+.quote-band--single {
+  width: fit-content;
+  margin: 16px auto 16px;
+}
+
+.quote-band blockquote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--gold);
+  border-left: 2px solid var(--gold);
+  padding-left: 16px;
+  text-align: left;
+}
+
+/* Fundo claro: citação mauve (mesma cor do hebraico .etym) */
+.training .quote-band blockquote,
+.values .quote-band blockquote {
+  color: var(--mauve);
+}
+
+/* Pilares (fundo escuro): citação na mesma cor dos textos dos cards */
+.pillars .quote-band blockquote {
+  color: rgba(242, 233, 226, 0.68);
+}
+
+/* ---------- CTA ---------- */
+.cta {
+  background: linear-gradient(180deg, var(--plum), var(--plum));
+  padding: 50px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta .wrap {
+  position: relative;
+  z-index: 2;
+}
+
+.cta h2 {
+  color: var(--cream);
+  max-width: 680px;
+  margin: 0 auto 20px;
+  transition: text-shadow .45s ease, transform .45s ease;
+}
+
+.cta h2:hover {
+  transform: scale(1.01);
+  text-shadow:
+    0 0 10px rgba(212, 162, 106, 0.45),
+    0 0 28px rgba(212, 162, 106, 0.22);
+}
+
+.cta p {
+  color: var(--gold);
+  max-width: 520px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+}
+
+.cta .eyebrow {
+  color: var(--gold);
+}
+
+.cta .btn-row {
+  justify-content: center;
+  margin-top: 0;
+}
+
+/* ---------- MISSÃO / CULTURA ---------- */
+.mv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 920px;
+  margin: 48px auto 0;
+}
+
+.mv-card {
+  background: rgba(232, 199, 154, 0.35);
+  /* gold-light suavizado — padrão method-step */
+  border: 1px solid rgba(71, 28, 61, 0.25);
+  padding: 24px 24px;
+  text-align: left;
+  transition: box-shadow .3s ease, transform .3s ease, border-color .3s ease;
+}
+
+.mv-card:hover {
+  box-shadow: 0 12px 28px rgba(75, 34, 66, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(71, 28, 61, 0.6);
+}
+
+.mv-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.mv-circle,
+.formato-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--plum);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--gold);
+  flex-shrink: 0;
+  border: 1.5px solid transparent;
+  /* evita deslocamento no hover */
+  transition: background .3s ease, color .3s ease, border-color .3s ease;
+}
+
+/* Hover sutil nos círculos dos cards claros: fundo dourado + fonte/borda roxa */
+.mv-card:hover .mv-circle,
+.formato-item:hover .formato-circle {
+  background: var(--gold);
+  color: var(--plum);
+  border-color: var(--plum);
+}
+
+.mv-card h3 {
+  margin-bottom: 0;
+  color: var(--plum);
+}
+
+.mv-card p {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--mauve);
+  /* Alinha com a primeira letra do título (círculo 44px + gap 14px) */
+  padding-left: 58px;
+  max-width: 460px;
+  line-height: 1.65;
+}
+
+/* ---------- TREINAMENTOS ---------- */
+.training {
+  background: var(--cream-soft);
+  padding: 0;
+  /* sem padding: faixas escuras encostam nos blocos vizinhos (sem linha branca) */
+}
+
+.training-sub {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.training-sub .eyebrow {
+  margin-bottom: 12px;
+}
+
+/* Sub-títulos da seção de treinamentos — nível 3 da hierarquia */
+.training-sub h3 {
+  font-size: clamp(24px, 2.9vw, 37px);
+  margin-bottom: 8px;
+}
+
+.training-sub p {
+  font-size: 15px;
+  color: var(--mauve);
+  /* fundo claro: subtítulo mauve (AA) */
+  font-weight: 500;
+}
+
+/* Faixa roxa da Metodologia — card creme sobre fundo roxo (mesma ideia do Significado/Valores) */
+.methodo-band {
+  background: linear-gradient(180deg, var(--plum), var(--plum-deep));
+  /* casa com Facilitadoras (plum) e Trilhas (plum-deep) */
+  margin: 0 calc(50% - 50vw);
+  padding: 8px calc(50vw - 50%);
+}
+
+.methodo-card {
+  background: var(--cream-soft);
+  border-radius: 24px;
+  max-width: 94%;
+  margin: 0 auto;
+  padding: 48px 24px 16px;
+  box-shadow: 0 24px 60px rgba(46, 18, 40, 0.4);
+}
+
+/* Faixa unificada "Trilhas de treinamento" — mesmo padrão de .facilitadoras:
+   um único gradiente contínuo cobrindo título + grade (sem emenda). */
+.trilhas-band {
+  background: linear-gradient(180deg, var(--plum-deep), var(--plum));
+  margin: 0 calc(50% - 50vw);
+  padding: 64px calc(50vw - 50%) 72px;
+}
+
+.trilhas-band .training-sub h3 {
+  color: var(--cream);
+}
+
+.trilhas-band .training-sub p {
+  color: var(--gold);
+}
+
+.trilhas-band .training-sub .eyebrow {
+  color: var(--gold);
+}
+
+/* Faixa roxa dos Formatos — card creme sobre fundo roxo */
+.formatos-band {
+  background: linear-gradient(180deg, var(--plum), var(--plum-deep));
+  /* casa com Trilhas (plum) */
+  margin: 0 calc(50% - 50vw);
+  padding: 8px calc(50vw - 50%);
+}
+
+.formatos-card {
+  background: var(--cream-soft);
+  border-radius: 24px;
+  max-width: 94%;
+  margin: 0 auto;
+  padding: 48px 24px 16px;
+  box-shadow: 0 24px 60px rgba(46, 18, 40, 0.4);
+}
+
+/* Facilitadoras */
+.facilitadoras {
+  background: linear-gradient(180deg, var(--plum-deep), var(--plum));
+  margin: 0 calc(50% - 50vw);
+  padding: 50px calc(50vw - 50%);
+}
+
+.facilitadoras .training-sub h3 {
+  color: var(--cream);
+}
+
+.facilitadoras .training-sub p {
+  color: var(--gold);
+}
+
+.facilitadoras .training-sub .eyebrow {
+  color: var(--gold);
+}
+
+.trainers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.trainer-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  column-gap: 16px;
+  row-gap: 22px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 162, 106, 0.2);
+  padding: 40px 36px;
+  transition: background .35s ease, transform .3s ease, border-color .3s ease;
+}
+
+.trainer-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--plum);
+  border: 1.5px solid var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--gold);
+  flex-shrink: 0;
+  transition: background .3s ease, color .3s ease;
+}
+
+.trainer-card:hover .trainer-avatar {
+  background: var(--gold);
+  color: var(--plum-deep);
+}
+
+.trainer-card:hover {
+  background: rgba(212, 162, 106, 0.08);
+  border-color: rgba(212, 162, 106, 0.45);
+  transform: translateY(-3px);
+}
+
+.trainer-card h3 {
+  line-height: 1.2;
+  color: var(--gold);
+}
+
+.trainer-role {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  padding: 5px 14px;
+  border-radius: 2px;
+  transition: background .3s ease, color .3s ease, border-color .3s ease;
+}
+
+.trainer-role:hover,
+.trainer-card:hover .trainer-role {
+  background: var(--gold);
+  color: var(--plum);
+  border-color: var(--gold);
+}
+
+.trainer-card p {
+  grid-column: 1 / -1;
+  font-size: 14.5px;
+  color: rgba(242, 233, 226, 0.68);
+  margin-bottom: 0;
+  /* Alinha com a primeira letra do nome (avatar 48px + gap 16px) */
+  padding-left: 64px;
+}
+
+.trainer-areas {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  /* Alinha com a primeira letra do nome (avatar 48px + gap 16px) */
+  padding-left: 64px;
+}
+
+.trainer-areas span {
+  font-size: 11.5px;
+  color: var(--gold);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(212, 162, 106, 0.35);
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: background .3s ease, color .3s ease, border-color .3s ease;
+}
+
+.trainer-areas span:hover {
+  background: var(--plum);
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
+/* Metodologia */
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.method-step {
+  background: rgba(232, 199, 154, 0.35);
+  /* gold-light suavizado — tom dourado claro */
+  border: 1px solid rgba(71, 28, 61, 0.25);
+  padding: 20px 24px;
+  transition: box-shadow .3s ease, transform .3s ease, border-color .3s ease;
+}
+
+.method-step:hover {
+  box-shadow: 0 12px 28px rgba(75, 34, 66, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(71, 28, 61, 0.6);
+}
+
+.method-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.method-step .num {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--gold);
+  background: var(--plum);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 44px;
+  flex-shrink: 0;
+  border: 1.5px solid transparent;
+  /* evita deslocamento no hover */
+  transition: background .3s ease, color .3s ease, border-color .3s ease;
+}
+
+.method-step:hover .num {
+  background: var(--gold);
+  color: var(--plum);
+  border-color: var(--plum);
+}
+
+.method-step h3 {
+  margin-bottom: 0;
+  line-height: 1.35;
+  color: var(--plum);
+}
+
+.method-step p {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--mauve);
+  /* Alinha com a primeira letra do título (número 44px + gap 14px) */
+  padding-left: 58px;
+  max-width: 460px;
+  line-height: 1.65;
+}
+
+/* Trilhas */
+.trilhas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 24px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.trilha-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 162, 106, 0.2);
+  padding: 24px 24px;
+  position: relative;
+  transition: box-shadow .3s ease, transform .3s ease, background .3s ease, border-color .3s ease;
+}
+
+.trilha-card:hover {
+  background: rgba(212, 162, 106, 0.08);
+  border-color: rgba(212, 162, 106, 0.45);
+  transform: translateY(-4px);
+  /* sem box-shadow aqui: o glow permanente é responsabilidade do .featured */
+}
+
+.trilha-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.trilha-glyph {
+  width: 42px;
+  height: 42px;
+  border: 1.4px solid var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--gold);
+  flex-shrink: 0;
+  transition: all .35s ease;
+}
+
+.trilha-card:hover .trilha-glyph {
+  background: var(--gold);
+  color: var(--plum-deep);
+}
+
+.trilha-card h3 {
+  margin-bottom: 0;
+  line-height: 1.3;
+  color: var(--gold);
+  font-size: 18px;
+}
+
+.trilha-card p {
+  font-size: 14px;
+  color: rgba(242, 233, 226, 0.68);
+  /* Alinha com a primeira letra do título (ícone 42px + gap 12px) */
+  padding-left: 54px;
+  max-width: 460px;
+  line-height: 1.55;
+}
+
+/* Card carro-chefe: glow dourado permanente (anel 1px + sombra suave),
+   intensifica no hover — sem conflito com as regras dos demais cards */
+.trilha-card.featured {
+  background: rgba(212, 162, 106, 0.1);
+  border-color: var(--gold);
+  box-shadow: 0 0 0 1px var(--gold), 0 16px 36px rgba(212, 162, 106, 0.18);
+  transform: translateY(-4px);
+}
+
+.trilha-card.featured:hover {
+  background: rgba(212, 162, 106, 0.14);
+  box-shadow: 0 0 0 1px var(--gold), 0 20px 44px rgba(212, 162, 106, 0.32);
+  transform: translateY(-6px);
+}
+
+.badge-carrochefe {
+  position: absolute;
+  top: -13px;
+  right: 18px;
+  background: var(--gold);
+  color: var(--plum-deep);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 2px;
+  box-shadow: 0 4px 14px rgba(212, 162, 106, 0.45);
+}
+
+/* Formatos */
+.formatos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.formato-item {
+  background: rgba(232, 199, 154, 0.35);
+  /* gold-light suavizado — padrão method-step */
+  border: 1px solid rgba(71, 28, 61, 0.25);
+  padding: 24px 24px;
+  transition: box-shadow .3s ease, transform .3s ease, border-color .3s ease;
+}
+
+.formato-item:hover {
+  box-shadow: 0 12px 28px rgba(75, 34, 66, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(71, 28, 61, 0.6);
+}
+
+.formato-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.formato-item h3 {
+  margin-bottom: 0;
+  line-height: 1.35;
+  color: var(--plum);
+}
+
+.formato-item p {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--mauve);
+  /* Alinha com a primeira letra do título (círculo 44px + gap 14px) */
+  padding-left: 58px;
+  max-width: 460px;
+  line-height: 1.65;
+}

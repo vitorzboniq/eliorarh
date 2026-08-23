@@ -1,0 +1,20 @@
+{
+  "docs/01-funcionalidades/01-especificacao-funcional.md": {
+    "mtime": 1787105530.184972,
+    "seen": 1787132124.4603443,
+    "ast_hash": "c70aa3f6d8fadc1c060bf5b269fe3942",
+    "semantic_hash": "c70aa3f6d8fadc1c060bf5b269fe3942"
+  },
+  "docs/02-arquitetura/01-arquitetura.md": {
+    "mtime": 1787105524.8887172,
+    "seen": 1787132124.4603443,
+    "ast_hash": "bf9cb3fa401a311b974eb86bd9df5628",
+    "semantic_hash": "bf9cb3fa401a311b974eb86bd9df5628"
+  },
+  "docs/03-seguranca/01-politica-seguranca.md": {
+    "mtime": 1787105548.5979452,
+    "seen": 1787132124.4603443,
+    "ast_hash": "260c53a6ee48592e55fa47f7d7c69451",
+    "semantic_hash": "260c53a6ee48592e55fa47f7d7c69451"
+  }
+}

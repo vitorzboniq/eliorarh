@@ -1,0 +1,1788 @@
+[
+  {
+    "viewport": "320x568",
+    "scroll": {
+      "docScrollW": 320,
+      "docClientW": 320,
+      "bodyScrollW": 320
+    },
+    "overflowers": [],
+    "burgerDisplay": "flex",
+    "menuOpen": true,
+    "menuRectOpen": {
+      "left": 70,
+      "right": 320,
+      "top": 0,
+      "bottom": 568
+    },
+    "menuClosedOnLink": true,
+    "scrollAfterClose": 400,
+    "menuClosedOnBurger": true,
+    "hero": {
+      "imgWidth": 256,
+      "imgHeight": 171,
+      "imgLeft": 32,
+      "imgRight": 288,
+      "hero": {
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "bottom": 1071
+      },
+      "glow": {
+        "left": 9,
+        "right": 311,
+        "top": 125,
+        "bottom": 326
+      },
+      "cut": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false,
+        "offViewport": false
+      },
+      "heroOverflow": "hidden",
+      "vw": 320
+    },
+    "columns": {
+      "trilhas": 1,
+      "method": 1,
+      "formatos": 1,
+      "trainers": 1,
+      "mv": 1,
+      "pillars": 1,
+      "foot": 1
+    },
+    "cardOverflow": {
+      "trilhas": [
+        {
+          "tag": "trilha-card reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card featured reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 256,
+          "bad": []
+        }
+      ],
+      "method": [
+        {
+          "tag": "method-step reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 256,
+          "bad": []
+        }
+      ],
+      "formatos": [
+        {
+          "tag": "formato-item reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 256,
+          "bad": []
+        }
+      ],
+      "trainers": [
+        {
+          "tag": "trainer-card reveal in",
+          "w": 256,
+          "bad": []
+        },
+        {
+          "tag": "trainer-card reveal in",
+          "w": 256,
+          "bad": []
+        }
+      ]
+    },
+    "badge": {
+      "text": "Carro-chefe",
+      "left": 142,
+      "right": 269,
+      "top": 8554,
+      "w": 127,
+      "clipped": false
+    },
+    "footer": {
+      "social": [
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        }
+      ],
+      "tagline": {
+        "text": "Olhar técnico, Sensibilidade humana",
+        "left": 32,
+        "right": 288,
+        "withinVw": true
+      },
+      "locIconLoaded": true
+    },
+    "tap": {
+      "burger": {
+        "w": 26,
+        "h": 16
+      },
+      "burgerDisplay": "flex",
+      "menuLinks": [
+        {
+          "w": 81,
+          "h": 24
+        },
+        {
+          "w": 74,
+          "h": 24
+        },
+        {
+          "w": 139,
+          "h": 24
+        },
+        {
+          "w": 116,
+          "h": 24
+        },
+        {
+          "w": 81,
+          "h": 24
+        },
+        {
+          "w": 180,
+          "h": 46
+        }
+      ],
+      "buttons": [
+        {
+          "w": 256,
+          "h": 74
+        },
+        {
+          "w": 256,
+          "h": 74
+        },
+        {
+          "w": 256,
+          "h": 74
+        },
+        {
+          "w": 249,
+          "h": 53
+        },
+        {
+          "w": 151,
+          "h": 53
+        },
+        {
+          "w": 163,
+          "h": 53
+        }
+      ],
+      "footerLinks": [
+        {
+          "w": 58,
+          "h": 18
+        },
+        {
+          "w": 47,
+          "h": 18
+        },
+        {
+          "w": 97,
+          "h": 18
+        },
+        {
+          "w": 84,
+          "h": 18
+        },
+        {
+          "w": 51,
+          "h": 18
+        },
+        {
+          "w": 142,
+          "h": 18
+        },
+        {
+          "w": 125,
+          "h": 18
+        },
+        {
+          "w": 157,
+          "h": 22
+        }
+      ],
+      "social": [
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        }
+      ]
+    }
+  },
+  {
+    "viewport": "375x667",
+    "scroll": {
+      "docScrollW": 375,
+      "docClientW": 375,
+      "bodyScrollW": 375
+    },
+    "overflowers": [],
+    "burgerDisplay": "flex",
+    "menuOpen": true,
+    "menuRectOpen": {
+      "left": 83,
+      "right": 375,
+      "top": 0,
+      "bottom": 667
+    },
+    "menuClosedOnLink": true,
+    "scrollAfterClose": 400,
+    "menuClosedOnBurger": true,
+    "hero": {
+      "imgWidth": 311,
+      "imgHeight": 207,
+      "imgLeft": 32,
+      "imgRight": 343,
+      "hero": {
+        "left": 0,
+        "right": 375,
+        "top": 0,
+        "bottom": 1000
+      },
+      "glow": {
+        "left": 4,
+        "right": 371,
+        "top": 121,
+        "bottom": 366
+      },
+      "cut": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false,
+        "offViewport": false
+      },
+      "heroOverflow": "hidden",
+      "vw": 375
+    },
+    "columns": {
+      "trilhas": 1,
+      "method": 1,
+      "formatos": 1,
+      "trainers": 1,
+      "mv": 1,
+      "pillars": 1,
+      "foot": 1
+    },
+    "cardOverflow": {
+      "trilhas": [
+        {
+          "tag": "trilha-card reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card featured reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 311,
+          "bad": []
+        }
+      ],
+      "method": [
+        {
+          "tag": "method-step reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 311,
+          "bad": []
+        }
+      ],
+      "formatos": [
+        {
+          "tag": "formato-item reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 311,
+          "bad": []
+        }
+      ],
+      "trainers": [
+        {
+          "tag": "trainer-card reveal in",
+          "w": 311,
+          "bad": []
+        },
+        {
+          "tag": "trainer-card reveal in",
+          "w": 311,
+          "bad": []
+        }
+      ]
+    },
+    "badge": {
+      "text": "Carro-chefe",
+      "left": 197,
+      "right": 324,
+      "top": 7741,
+      "w": 127,
+      "clipped": false
+    },
+    "footer": {
+      "social": [
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        }
+      ],
+      "tagline": {
+        "text": "Olhar técnico, Sensibilidade humana",
+        "left": 32,
+        "right": 343,
+        "withinVw": true
+      },
+      "locIconLoaded": true
+    },
+    "tap": {
+      "burger": {
+        "w": 26,
+        "h": 16
+      },
+      "burgerDisplay": "flex",
+      "menuLinks": [
+        {
+          "w": 81,
+          "h": 24
+        },
+        {
+          "w": 74,
+          "h": 24
+        },
+        {
+          "w": 139,
+          "h": 24
+        },
+        {
+          "w": 116,
+          "h": 24
+        },
+        {
+          "w": 81,
+          "h": 24
+        },
+        {
+          "w": 180,
+          "h": 46
+        }
+      ],
+      "buttons": [
+        {
+          "w": 260,
+          "h": 53
+        },
+        {
+          "w": 281,
+          "h": 53
+        },
+        {
+          "w": 261,
+          "h": 53
+        },
+        {
+          "w": 249,
+          "h": 53
+        },
+        {
+          "w": 151,
+          "h": 53
+        },
+        {
+          "w": 163,
+          "h": 53
+        }
+      ],
+      "footerLinks": [
+        {
+          "w": 58,
+          "h": 18
+        },
+        {
+          "w": 47,
+          "h": 18
+        },
+        {
+          "w": 97,
+          "h": 18
+        },
+        {
+          "w": 84,
+          "h": 18
+        },
+        {
+          "w": 51,
+          "h": 18
+        },
+        {
+          "w": 142,
+          "h": 18
+        },
+        {
+          "w": 125,
+          "h": 18
+        },
+        {
+          "w": 157,
+          "h": 22
+        }
+      ],
+      "social": [
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        }
+      ]
+    }
+  },
+  {
+    "viewport": "390x844",
+    "scroll": {
+      "docScrollW": 390,
+      "docClientW": 390,
+      "bodyScrollW": 390
+    },
+    "overflowers": [],
+    "burgerDisplay": "flex",
+    "menuOpen": true,
+    "menuRectOpen": {
+      "left": 86,
+      "right": 390,
+      "top": 0,
+      "bottom": 844
+    },
+    "menuClosedOnLink": true,
+    "scrollAfterClose": 400,
+    "menuClosedOnBurger": true,
+    "hero": {
+      "imgWidth": 320,
+      "imgHeight": 213,
+      "imgLeft": 35,
+      "imgRight": 355,
+      "hero": {
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "bottom": 1006
+      },
+      "glow": {
+        "left": 3,
+        "right": 387,
+        "top": 121,
+        "bottom": 373
+      },
+      "cut": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false,
+        "offViewport": false
+      },
+      "heroOverflow": "hidden",
+      "vw": 390
+    },
+    "columns": {
+      "trilhas": 1,
+      "method": 1,
+      "formatos": 1,
+      "trainers": 1,
+      "mv": 1,
+      "pillars": 1,
+      "foot": 1
+    },
+    "cardOverflow": {
+      "trilhas": [
+        {
+          "tag": "trilha-card reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card featured reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 326,
+          "bad": []
+        }
+      ],
+      "method": [
+        {
+          "tag": "method-step reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 326,
+          "bad": []
+        }
+      ],
+      "formatos": [
+        {
+          "tag": "formato-item reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 326,
+          "bad": []
+        }
+      ],
+      "trainers": [
+        {
+          "tag": "trainer-card reveal in",
+          "w": 326,
+          "bad": []
+        },
+        {
+          "tag": "trainer-card reveal in",
+          "w": 326,
+          "bad": []
+        }
+      ]
+    },
+    "badge": {
+      "text": "Carro-chefe",
+      "left": 212,
+      "right": 339,
+      "top": 7675,
+      "w": 127,
+      "clipped": false
+    },
+    "footer": {
+      "social": [
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        }
+      ],
+      "tagline": {
+        "text": "Olhar técnico, Sensibilidade humana",
+        "left": 32,
+        "right": 358,
+        "withinVw": true
+      },
+      "locIconLoaded": true
+    },
+    "tap": {
+      "burger": {
+        "w": 26,
+        "h": 16
+      },
+      "burgerDisplay": "flex",
+      "menuLinks": [
+        {
+          "w": 81,
+          "h": 24
+        },
+        {
+          "w": 74,
+          "h": 24
+        },
+        {
+          "w": 139,
+          "h": 24
+        },
+        {
+          "w": 116,
+          "h": 24
+        },
+        {
+          "w": 81,
+          "h": 24
+        },
+        {
+          "w": 180,
+          "h": 46
+        }
+      ],
+      "buttons": [
+        {
+          "w": 260,
+          "h": 53
+        },
+        {
+          "w": 281,
+          "h": 53
+        },
+        {
+          "w": 261,
+          "h": 53
+        },
+        {
+          "w": 249,
+          "h": 53
+        },
+        {
+          "w": 151,
+          "h": 53
+        },
+        {
+          "w": 163,
+          "h": 53
+        }
+      ],
+      "footerLinks": [
+        {
+          "w": 58,
+          "h": 18
+        },
+        {
+          "w": 47,
+          "h": 18
+        },
+        {
+          "w": 97,
+          "h": 18
+        },
+        {
+          "w": 84,
+          "h": 18
+        },
+        {
+          "w": 51,
+          "h": 18
+        },
+        {
+          "w": 142,
+          "h": 18
+        },
+        {
+          "w": 125,
+          "h": 18
+        },
+        {
+          "w": 157,
+          "h": 22
+        }
+      ],
+      "social": [
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        }
+      ]
+    }
+  },
+  {
+    "viewport": "412x915",
+    "scroll": {
+      "docScrollW": 412,
+      "docClientW": 412,
+      "bodyScrollW": 412
+    },
+    "overflowers": [],
+    "burgerDisplay": "flex",
+    "menuOpen": true,
+    "menuRectOpen": {
+      "left": 91,
+      "right": 412,
+      "top": 0,
+      "bottom": 915
+    },
+    "menuClosedOnLink": true,
+    "scrollAfterClose": 400,
+    "menuClosedOnBurger": true,
+    "hero": {
+      "imgWidth": 320,
+      "imgHeight": 213,
+      "imgLeft": 46,
+      "imgRight": 366,
+      "hero": {
+        "left": 0,
+        "right": 412,
+        "top": 0,
+        "bottom": 979
+      },
+      "glow": {
+        "left": 1,
+        "right": 411,
+        "top": 121,
+        "bottom": 373
+      },
+      "cut": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false,
+        "offViewport": false
+      },
+      "heroOverflow": "hidden",
+      "vw": 412
+    },
+    "columns": {
+      "trilhas": 1,
+      "method": 1,
+      "formatos": 1,
+      "trainers": 1,
+      "mv": 1,
+      "pillars": 1,
+      "foot": 1
+    },
+    "cardOverflow": {
+      "trilhas": [
+        {
+          "tag": "trilha-card reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card featured reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 348,
+          "bad": []
+        }
+      ],
+      "method": [
+        {
+          "tag": "method-step reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 348,
+          "bad": []
+        }
+      ],
+      "formatos": [
+        {
+          "tag": "formato-item reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 348,
+          "bad": []
+        }
+      ],
+      "trainers": [
+        {
+          "tag": "trainer-card reveal in",
+          "w": 348,
+          "bad": []
+        },
+        {
+          "tag": "trainer-card reveal in",
+          "w": 348,
+          "bad": []
+        }
+      ]
+    },
+    "badge": {
+      "text": "Carro-chefe",
+      "left": 234,
+      "right": 361,
+      "top": 7346,
+      "w": 127,
+      "clipped": false
+    },
+    "footer": {
+      "social": [
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        }
+      ],
+      "tagline": {
+        "text": "Olhar técnico, Sensibilidade humana",
+        "left": 32,
+        "right": 380,
+        "withinVw": true
+      },
+      "locIconLoaded": true
+    },
+    "tap": {
+      "burger": {
+        "w": 26,
+        "h": 16
+      },
+      "burgerDisplay": "flex",
+      "menuLinks": [
+        {
+          "w": 81,
+          "h": 24
+        },
+        {
+          "w": 74,
+          "h": 24
+        },
+        {
+          "w": 139,
+          "h": 24
+        },
+        {
+          "w": 116,
+          "h": 24
+        },
+        {
+          "w": 81,
+          "h": 24
+        },
+        {
+          "w": 180,
+          "h": 46
+        }
+      ],
+      "buttons": [
+        {
+          "w": 260,
+          "h": 53
+        },
+        {
+          "w": 281,
+          "h": 53
+        },
+        {
+          "w": 261,
+          "h": 53
+        },
+        {
+          "w": 249,
+          "h": 53
+        },
+        {
+          "w": 151,
+          "h": 53
+        },
+        {
+          "w": 163,
+          "h": 53
+        }
+      ],
+      "footerLinks": [
+        {
+          "w": 58,
+          "h": 18
+        },
+        {
+          "w": 47,
+          "h": 18
+        },
+        {
+          "w": 97,
+          "h": 18
+        },
+        {
+          "w": 84,
+          "h": 18
+        },
+        {
+          "w": 51,
+          "h": 18
+        },
+        {
+          "w": 142,
+          "h": 18
+        },
+        {
+          "w": 125,
+          "h": 18
+        },
+        {
+          "w": 157,
+          "h": 22
+        }
+      ],
+      "social": [
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        }
+      ]
+    }
+  },
+  {
+    "viewport": "768x1024",
+    "scroll": {
+      "docScrollW": 768,
+      "docClientW": 768,
+      "bodyScrollW": 768
+    },
+    "overflowers": [],
+    "burgerDisplay": "none",
+    "headerFit": {
+      "right": 875,
+      "vw": 768,
+      "fits": false
+    },
+    "hero": {
+      "imgWidth": 320,
+      "imgHeight": 213,
+      "imgLeft": 224,
+      "imgRight": 544,
+      "hero": {
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "bottom": 1024
+      },
+      "glow": {
+        "left": 54,
+        "right": 714,
+        "top": 212,
+        "bottom": 463
+      },
+      "cut": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false,
+        "offViewport": false
+      },
+      "heroOverflow": "hidden",
+      "vw": 768
+    },
+    "columns": {
+      "trilhas": 2,
+      "method": 2,
+      "formatos": 2,
+      "trainers": 1,
+      "mv": 1,
+      "pillars": 2,
+      "foot": 2
+    },
+    "cardOverflow": {
+      "trilhas": [
+        {
+          "tag": "trilha-card reveal in",
+          "w": 340,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 340,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card featured reveal in",
+          "w": 340,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 340,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 340,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 340,
+          "bad": []
+        }
+      ],
+      "method": [
+        {
+          "tag": "method-step reveal in",
+          "w": 340,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 340,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 340,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 340,
+          "bad": []
+        }
+      ],
+      "formatos": [
+        {
+          "tag": "formato-item reveal in",
+          "w": 341,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 341,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 341,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 341,
+          "bad": []
+        }
+      ],
+      "trainers": [
+        {
+          "tag": "trainer-card reveal in",
+          "w": 704,
+          "bad": []
+        },
+        {
+          "tag": "trainer-card reveal in",
+          "w": 704,
+          "bad": []
+        }
+      ]
+    },
+    "badge": {
+      "text": "Carro-chefe",
+      "left": 226,
+      "right": 353,
+      "top": 5396,
+      "w": 127,
+      "clipped": false
+    },
+    "footer": {
+      "social": [
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        }
+      ],
+      "tagline": {
+        "text": "Olhar técnico, Sensibilidade humana",
+        "left": 32,
+        "right": 736,
+        "withinVw": true
+      },
+      "locIconLoaded": true
+    },
+    "tap": {
+      "burger": {
+        "w": 0,
+        "h": 0
+      },
+      "burgerDisplay": "none",
+      "menuLinks": [
+        {
+          "w": 56,
+          "h": 42
+        },
+        {
+          "w": 65,
+          "h": 21
+        },
+        {
+          "w": 122,
+          "h": 21
+        },
+        {
+          "w": 102,
+          "h": 21
+        },
+        {
+          "w": 71,
+          "h": 21
+        },
+        {
+          "w": 120,
+          "h": 64
+        }
+      ],
+      "buttons": [
+        {
+          "w": 260,
+          "h": 53
+        },
+        {
+          "w": 281,
+          "h": 53
+        },
+        {
+          "w": 261,
+          "h": 53
+        },
+        {
+          "w": 249,
+          "h": 53
+        },
+        {
+          "w": 151,
+          "h": 53
+        },
+        {
+          "w": 163,
+          "h": 53
+        }
+      ],
+      "footerLinks": [
+        {
+          "w": 58,
+          "h": 18
+        },
+        {
+          "w": 47,
+          "h": 18
+        },
+        {
+          "w": 97,
+          "h": 18
+        },
+        {
+          "w": 84,
+          "h": 18
+        },
+        {
+          "w": 51,
+          "h": 18
+        },
+        {
+          "w": 142,
+          "h": 18
+        },
+        {
+          "w": 125,
+          "h": 18
+        },
+        {
+          "w": 157,
+          "h": 22
+        }
+      ],
+      "social": [
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        }
+      ]
+    }
+  },
+  {
+    "viewport": "812x375",
+    "scroll": {
+      "docScrollW": 812,
+      "docClientW": 812,
+      "bodyScrollW": 812
+    },
+    "overflowers": [],
+    "burgerDisplay": "none",
+    "headerFit": {
+      "right": 875,
+      "vw": 812,
+      "fits": false
+    },
+    "hero": {
+      "imgWidth": 320,
+      "imgHeight": 213,
+      "imgLeft": 246,
+      "imgRight": 566,
+      "hero": {
+        "left": 0,
+        "right": 812,
+        "top": 0,
+        "bottom": 846
+      },
+      "glow": {
+        "left": 76,
+        "right": 736,
+        "top": 121,
+        "bottom": 373
+      },
+      "cut": {
+        "left": false,
+        "right": false,
+        "top": false,
+        "bottom": false,
+        "offViewport": false
+      },
+      "heroOverflow": "hidden",
+      "vw": 812
+    },
+    "columns": {
+      "trilhas": 2,
+      "method": 2,
+      "formatos": 2,
+      "trainers": 1,
+      "mv": 1,
+      "pillars": 2,
+      "foot": 2
+    },
+    "cardOverflow": {
+      "trilhas": [
+        {
+          "tag": "trilha-card reveal in",
+          "w": 362,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 362,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card featured reveal in",
+          "w": 362,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 362,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 362,
+          "bad": []
+        },
+        {
+          "tag": "trilha-card reveal in",
+          "w": 362,
+          "bad": []
+        }
+      ],
+      "method": [
+        {
+          "tag": "method-step reveal in",
+          "w": 362,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 362,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 362,
+          "bad": []
+        },
+        {
+          "tag": "method-step reveal in",
+          "w": 362,
+          "bad": []
+        }
+      ],
+      "formatos": [
+        {
+          "tag": "formato-item reveal in",
+          "w": 363,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 363,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 363,
+          "bad": []
+        },
+        {
+          "tag": "formato-item reveal in",
+          "w": 363,
+          "bad": []
+        }
+      ],
+      "trainers": [
+        {
+          "tag": "trainer-card reveal in",
+          "w": 748,
+          "bad": []
+        },
+        {
+          "tag": "trainer-card reveal in",
+          "w": 748,
+          "bad": []
+        }
+      ]
+    },
+    "badge": {
+      "text": "Carro-chefe",
+      "left": 248,
+      "right": 375,
+      "top": 5173,
+      "w": 127,
+      "clipped": false
+    },
+    "footer": {
+      "social": [
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        },
+        {
+          "w": 36,
+          "h": 36,
+          "iconLoaded": true
+        }
+      ],
+      "tagline": {
+        "text": "Olhar técnico, Sensibilidade humana",
+        "left": 32,
+        "right": 780,
+        "withinVw": true
+      },
+      "locIconLoaded": true
+    },
+    "tap": {
+      "burger": {
+        "w": 0,
+        "h": 0
+      },
+      "burgerDisplay": "none",
+      "menuLinks": [
+        {
+          "w": 56,
+          "h": 42
+        },
+        {
+          "w": 65,
+          "h": 21
+        },
+        {
+          "w": 122,
+          "h": 21
+        },
+        {
+          "w": 102,
+          "h": 21
+        },
+        {
+          "w": 71,
+          "h": 21
+        },
+        {
+          "w": 120,
+          "h": 64
+        }
+      ],
+      "buttons": [
+        {
+          "w": 260,
+          "h": 53
+        },
+        {
+          "w": 281,
+          "h": 53
+        },
+        {
+          "w": 261,
+          "h": 53
+        },
+        {
+          "w": 249,
+          "h": 53
+        },
+        {
+          "w": 151,
+          "h": 53
+        },
+        {
+          "w": 163,
+          "h": 53
+        }
+      ],
+      "footerLinks": [
+        {
+          "w": 58,
+          "h": 18
+        },
+        {
+          "w": 47,
+          "h": 18
+        },
+        {
+          "w": 97,
+          "h": 18
+        },
+        {
+          "w": 84,
+          "h": 18
+        },
+        {
+          "w": 51,
+          "h": 18
+        },
+        {
+          "w": 142,
+          "h": 18
+        },
+        {
+          "w": 125,
+          "h": 18
+        },
+        {
+          "w": 157,
+          "h": 22
+        }
+      ],
+      "social": [
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        },
+        {
+          "w": 36,
+          "h": 36
+        }
+      ]
+    }
+  },
+  {
+    "resizeTest": {
+      "openAt375": true,
+      "stateAt1440": {
+        "open": true,
+        "navRect": {
+          "left": 483,
+          "right": 1278
+        }
+      },
+      "stateAt320": {
+        "open": true,
+        "left": 70,
+        "right": 320,
+        "vw": 320
+      },
+      "bugPhantomClassAtDesktop": true,
+      "bugOpensBackAt320": true
+    }
+  }
+]

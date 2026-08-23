@@ -1,0 +1,24 @@
+# Pastas de desenvolvimento e configuração do opencode
+.opencode/
+.agents/
+.vscode/
+
+# Pastas de deploy (apenas o que sobe ao Netlify, não ao Git)
+publish/
+
+# Arquivos de ambiente (se algum dia adicionar)
+*.env
+
+# Arquivos de lock de skills
+skills-lock.json
+
+# Logs e arquivos temporários
+*.log
+tmp/
+
+# Dependências (se algum dia instalar npm/node packages)
+node_modules/
+
+# Arquivos do sistema do SO
+.DS_Store
+Thumbs.db

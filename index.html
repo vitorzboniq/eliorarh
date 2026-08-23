@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eliora RH: Consultoria em Recursos Humanos</title>
+  <meta name="description"
+    content="Eliora RH: Consultoria em RH e treinamentos corporativos sob medida. Pessoas no centro, resultados que transformam. Campo Mourão, PR.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!-- Skip link para pular a navegação -->
+  <a href="#top" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- ---------- NAV ---------- -->
+  <header id="siteHeader">
+    <!-- Botão fixo de contato no header (mobile): WhatsApp → link tree.
+         position:absolute relativo ao header (que é fixed) — canto direito.
+         Detalhes em css/responsive.css. -->
+    <a href="https://eliorarh.netlify.app/" class="header-cta" target="_blank" rel="noopener" aria-label="Fale conosco via Linktree">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.019-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
+      </svg>
+    </a>
+    <div class="wrap">
+      <a href="#top" class="brand-mini"><img src="assets/images/eliora_palavra.png" alt="Eliora"><span class="rh"><span class="rh-full">Consultoria em RH</span><span
+            class="rh-short">RH</span></span></a>
+      <nav class="links" id="navLinks">
+        <a href="#pilares">Pilares</a>
+        <a href="#valores">Valores</a>
+        <a href="#treinamentos">Treinamentos</a>
+        <a href="#abordagem">Abordagem</a>
+        <a href="https://eliorarh.netlify.app/" target="_blank" rel="noopener" class="nav-cta">Fale conosco</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ---------- HERO ---------- -->
+  <section class="hero" id="top" data-section-theme="dark">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow">Consultoria em RH</p>
+        <h1>Pessoas no centro.<br>Resultados que <em>transformam.</em></h1>
+        <div class="btn-row">
+          <a href="#pilares" class="btn btn-ghost">Conheça nossos pilares</a>
+        </div>
+        <div class="hero-keywords" aria-label="Foco da consultoria">
+          <span>Estratégia</span>
+          <span class="dot" aria-hidden="true">&#183;</span>
+          <span>Pessoas</span>
+          <span class="dot" aria-hidden="true">&#183;</span>
+          <span>Resultados</span>
+          <span class="dot" aria-hidden="true">&#183;</span>
+          <span>Propósito</span>
+        </div>
+      </div>
+      <div class="hero-logo">
+        <img src="assets/images/Eliora_RH_Logo_SemBordas.png" alt="Eliora RH">
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- SIGNIFICADO ---------- -->
+  <section class="meaning" id="significado">
+    <div class="wrap">
+      <div class="meaning-mark reveal">
+        <img src="assets/images/logo-meaning.png" alt="Eliora RH">
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Nossa essência</p>
+        <h2>O significado de Eliora</h2>
+        <p class="meaning-sub">Um nome que revela o que acreditamos: pessoas no centro, resultados que transformam.</p>
+        <p class="etym">Do hebraico <b>El</b> ("Deus") + <b>Or</b> ("luz"): "Deus é minha luz"</p>
+        <p class="d-only">Assim como a luz revela caminhos, a Eliora RH existe para iluminar o potencial das pessoas dentro das
+          organizações, trazendo clareza aos processos de gestão e conduzindo empresas rumo a resultados mais humanos e
+          sustentáveis.</p>
+        <p class="m-only">Assim como a luz revela caminhos, a Eliora RH existe para iluminar o potencial das pessoas dentro das
+          organizações.</p>
+        <p class="d-only">No símbolo da marca, duas figuras entrelaçadas formam o monograma: uma representa a organização, a outra
+          representa a pessoa, unidas, caminhando na mesma direção, iluminadas pelo dourado que remete à luz e à
+          conquista.</p>
+        <blockquote>“Pessoas no centro. Resultados que transformam.”</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- PILARES ---------- -->
+  <section class="pillars" id="pilares" data-section-theme="dark">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">O que fazemos</p>
+        <h2>Nossos pilares de atuação</h2>
+        <p>Quatro frentes que sustentam uma gestão de pessoas estratégica, humana e consistente.</p>
+      </div>
+      <div class="pillar-grid">
+        <div class="pillar-card reveal">
+          <div class="pillar-head">
+            <div class="pillar-glyph">E</div>
+            <h3>Estratégia de Pessoas</h3>
+          </div>
+          <p class="d-only">Alinhamento entre a estratégia de negócio e a gestão de talentos, para que as pessoas impulsionem os
+            resultados da empresa.</p>
+          <p class="m-only">Alinhando estratégia de negócio e gestão de talentos, impulsionando os resultados.</p>
+        </div>
+        <div class="pillar-card reveal">
+          <div class="pillar-head">
+            <div class="pillar-glyph">T</div>
+            <h3>Treinamento e Desenvolvimento</h3>
+          </div>
+          <p class="d-only">Programas de capacitação, mentoria e crescimento contínuo que ampliam o potencial de cada colaborador e de
+            líderes.</p>
+          <p class="m-only">Capacitação, mentoria e crescimento contínuo.</p>
+        </div>
+        <div class="pillar-card reveal">
+          <div class="pillar-head">
+            <div class="pillar-glyph">C</div>
+            <h3>Cultura Organizacional</h3>
+          </div>
+          <p class="d-only">Construção de ambientes de trabalho saudáveis, com valores claros e conexão genuína entre as pessoas.</p>
+          <p class="m-only">Ambientes de trabalho saudáveis, com valores e conexão genuína.</p>
+        </div>
+        <div class="pillar-card reveal">
+          <div class="pillar-head">
+            <div class="pillar-glyph">R</div>
+            <h3>Recrutamento e Seleção</h3>
+          </div>
+          <p class="d-only">Processos de recrutamento, retenção e relações de trabalho conduzidos com ética e proximidade.</p>
+          <p class="m-only">Recrutamento, retenção e relações de trabalho conduzidos com ética e proximidade.</p>
+        </div>
+      </div>
+      <div class="quote-band quote-band--single reveal">
+        <blockquote>“Pessoas não são apenas parte da estratégia. Pessoas fazem a estratégia acontecer.”</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- VALORES ---------- -->
+  <section class="values" id="valores">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">No que acreditamos</p>
+        <h2>Missão, cultura e valores</h2>
+        <p class="values-sub">Princípios que orientam cada projeto, cada escolha e cada pessoa.</p>
+      </div>
+      <div class="mv-grid reveal">
+        <div class="mv-card">
+          <div class="mv-head">
+            <span class="mv-circle" aria-hidden="true">M</span>
+            <h3>Missão</h3>
+          </div>
+          <p class="d-only">Transformar a gestão de pessoas em vantagem estratégica para as organizações, promovendo desenvolvimento
+            humano, cultura saudável e resultados consistentes.</p>
+          <p class="m-only">Transformar a gestão de pessoas em vantagem estratégica, promovendo desenvolvimento humano e resultados
+            consistentes.</p>
+        </div>
+        <div class="mv-card">
+          <div class="mv-head">
+            <span class="mv-circle" aria-hidden="true">C</span>
+            <h3>Cultura</h3>
+          </div>
+          <p class="d-only">Ser reconhecida como referência em consultoria de RH que une estratégia de negócio e cuidado genuíno com as
+            pessoas.</p>
+          <p class="m-only">Ser referência em consultoria de RH que une estratégia de negócio e cuidado genuíno com as pessoas.</p>
+        </div>
+      </div>
+      <div class="value-pills reveal">
+        <span>Pessoas no centro</span>
+        <span>Ética e transparência</span>
+        <span>Olhar técnico</span>
+        <span>Escuta ativa</span>
+        <span>Transformação com propósito</span>
+      </div>
+      <div class="quote-band quote-band--single reveal">
+        <blockquote>“Cultura não é o que está escrito na parede. É o que acontece todos os dias.”</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- TREINAMENTOS ---------- -->
+  <section class="training" id="treinamentos">
+    <div class="wrap">
+
+      <!-- Facilitadoras -->
+      <div class="facilitadoras">
+        <div class="training-sub reveal">
+          <p class="eyebrow">Quem conduz</p>
+          <h3>Nossas facilitadoras</h3>
+          <p>Duas profissionais complementares, que unem o olhar da psicologia organizacional à expertise pedagógica em
+            desenvolvimento humano.</p>
+        </div>
+        <div class="trainers">
+          <div class="trainer-card reveal">
+            <div class="trainer-avatar">M</div>
+            <h3>Michelly</h3>
+            <span class="trainer-role">Psicóloga</span>
+            <p class="d-only">Especializada em Psicologia Organizacional e saúde mental no trabalho. Conduz os treinamentos com foco em
+              comportamento, autoconhecimento e bem-estar emocional de pessoas e líderes.</p>
+            <p class="m-only">Especializada em Psicologia Organizacional e saúde mental no trabalho. Foca em comportamento,
+              autoconhecimento e bem-estar emocional.</p>
+            <div class="trainer-areas">
+              <span>Psicologia Organizacional</span>
+              <span>Desenvolvimento de Liderança</span>
+              <span>Inteligência Emocional</span>
+              <span>Saúde Mental no Trabalho</span>
+            </div>
+          </div>
+          <div class="trainer-card reveal">
+            <div class="trainer-avatar">G</div>
+            <h3>Giovana</h3>
+            <span class="trainer-role">Pedagoga</span>
+            <p class="d-only">Pedagoga com vivência em RH. Une educação corporativa e experiências de aprendizagem para garantir um
+              conteúdo aplicável e conectado à realidade dos participantes.</p>
+            <p class="m-only">Pedagoga com vivência em RH. Une educação corporativa e aprendizagem aplicável à realidade dos
+              participantes.</p>
+            <div class="trainer-areas">
+              <span>Desenho Pedagógico</span>
+              <span>Treinamento &amp; Desenvolvimento</span>
+              <span>Formação de Equipes</span>
+              <span>Experiências de Aprendizagem</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Metodologia -->
+      <div class="methodo-band">
+        <div class="methodo-card">
+          <div class="training-sub reveal">
+            <p class="eyebrow">Como construímos</p>
+            <h3>Nossa metodologia</h3>
+            <p>Nenhum treinamento da Eliora RH é padronizado; cada programa nasce de um processo estruturado em quatro
+              etapas.</p>
+          </div>
+          <div class="method-grid">
+            <div class="method-step reveal">
+              <div class="method-head">
+                <div class="num">1</div>
+                <h3>Briefing</h3>
+              </div>
+              <p>Entendemos o momento da empresa, os desafios enfrentados pela liderança e pelas equipes, e os objetivos
+                esperados com o treinamento.</p>
+            </div>
+            <div class="method-step reveal">
+              <div class="method-head">
+                <div class="num">2</div>
+                <h3>Diagnóstico</h3>
+              </div>
+              <p>Mapeamos as lacunas de competência, o perfil comportamental dos participantes e a cultura do time
+                envolvido.</p>
+            </div>
+            <div class="method-step reveal">
+              <div class="method-head">
+                <div class="num">3</div>
+                <h3>Desenho sob medida</h3>
+              </div>
+              <p>Construímos o conteúdo, as dinâmicas e o formato do treinamento de acordo com a necessidade real
+                identificada no diagnóstico.</p>
+            </div>
+            <div class="method-step reveal">
+              <div class="method-head">
+                <div class="num">4</div>
+                <h3>Aplicação e acompanhamento</h3>
+              </div>
+              <p>Michelly e Giovana facilitam o treinamento presencialmente e acompanham a aplicação prática dos
+                aprendizados após o programa.</p>
+            </div>
+          </div>
+          <div class="quote-band quote-band--single reveal">
+            <blockquote>“Não começamos pelo conteúdo. Começamos pelo diagnóstico.”</blockquote>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trilhas -->
+      <div class="trilhas-band">
+        <div class="training-sub reveal">
+          <p class="eyebrow">Portfólio de Treinamentos</p>
+          <h3>Treinamentos sob medida</h3>
+          <p>Experiências práticas e humanas, construídas a partir da realidade de cada organização.</p>
+        </div>
+        <div class="trilhas">
+          <div class="trilha-card reveal">
+            <div class="trilha-head">
+              <div class="trilha-glyph">O</div>
+              <h3>Onboarding e Integração</h3>
+            </div>
+            <p>Programas estruturados para acolher e integrar novos colaboradores à cultura da empresa desde o primeiro
+              dia.</p>
+          </div>
+          <div class="trilha-card reveal">
+            <div class="trilha-head">
+              <div class="trilha-glyph">T</div>
+              <h3>Times de Alta Performance</h3>
+            </div>
+            <p>Ferramentas práticas para engajar, delegar e desenvolver equipes com foco em resultado e colaboração.</p>
+          </div>
+          <div class="trilha-card featured reveal">
+            <span class="badge-carrochefe">Carro-chefe</span>
+            <div class="trilha-head">
+              <div class="trilha-glyph">D</div>
+              <h3>Desenvolvimento de Liderança</h3>
+            </div>
+            <p>Formação de líderes mais autoconscientes, preparados para gerir pessoas, dar feedback e conduzir equipes
+              rumo a resultados.</p>
+          </div>
+          <div class="trilha-card reveal">
+            <div class="trilha-head">
+              <div class="trilha-glyph">C</div>
+              <h3>Cultura e Engajamento</h3>
+            </div>
+            <p>Fortalecimento de valores, senso de pertencimento e clima organizacional saudável.</p>
+          </div>
+          <div class="trilha-card reveal">
+            <div class="trilha-head">
+              <div class="trilha-glyph">I</div>
+              <h3>Inteligência Emocional</h3>
+            </div>
+            <p>Autoconhecimento e regulação emocional aplicados às relações e desafios do dia a dia corporativo.</p>
+          </div>
+          <div class="trilha-card reveal">
+            <div class="trilha-head">
+              <div class="trilha-glyph">C</div>
+              <h3>Comunicação e Feedback</h3>
+            </div>
+            <p>Desenvolvimento de comunicação assertiva e construção de uma cultura de feedback contínuo entre líderes e
+              equipes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formatos -->
+      <div class="formatos-band">
+        <div class="formatos-card">
+          <div class="training-sub reveal">
+            <p class="eyebrow">Modelos de entrega</p>
+            <h3>Formatos de treinamento</h3>
+            <p>Do encontro único à trilha continuada, sempre adaptados ao cliente.</p>
+          </div>
+          <div class="formatos">
+            <div class="formato-item reveal">
+              <div class="formato-head">
+                <span class="formato-circle" aria-hidden="true">I</span>
+                <h3>In company, presencial ou online</h3>
+              </div>
+              <p>Treinamentos aplicados dentro da empresa, no formato que melhor se adequar à rotina e à estrutura do
+                cliente.</p>
+            </div>
+            <div class="formato-item reveal">
+              <div class="formato-head">
+                <span class="formato-circle" aria-hidden="true">P</span>
+                <h3>Programas pontuais ou continuados</h3>
+              </div>
+              <p>Desde workshops de um único encontro até trilhas de desenvolvimento com múltiplos módulos ao longo do
+                tempo.</p>
+            </div>
+            <div class="formato-item reveal">
+              <div class="formato-head">
+                <span class="formato-circle" aria-hidden="true">A</span>
+                <h3>Acompanhamento pós-treinamento</h3>
+              </div>
+              <p>Suporte à aplicação prática dos aprendizados, para que o treinamento gere impacto real no dia a dia da
+                empresa.</p>
+            </div>
+            <div class="formato-item reveal">
+              <div class="formato-head">
+                <span class="formato-circle" aria-hidden="true">T</span>
+                <h3>Turmas de liderança ou times completos</h3>
+              </div>
+              <p>Programas desenhados tanto para grupos de liderança quanto para equipes operacionais, de acordo com a
+                necessidade.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- ABORDAGEM / PROCESSO ---------- -->
+  <section class="process" id="abordagem" data-section-theme="dark">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow on-dark">Como trabalhamos</p>
+        <h2>Nossa abordagem</h2>
+        <p>Um processo claro, do diagnóstico ao acompanhamento contínuo dos resultados.</p>
+      </div>
+      <div class="timeline">
+        <div class="step reveal">
+          <div class="step-head">
+            <div class="num">1</div>
+            <h3>Diagnóstico</h3>
+          </div>
+          <p>Mapeamos a realidade da empresa, seus processos de RH e a percepção das pessoas.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-head">
+            <div class="num">2</div>
+            <h3>Estratégia</h3>
+          </div>
+          <p>Desenhamos um plano de ação alinhado aos objetivos do negócio e à cultura da organização.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-head">
+            <div class="num">3</div>
+            <h3>Implementação</h3>
+          </div>
+          <p>Colocamos o plano em prática junto às lideranças e equipes, com acompanhamento próximo.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-head">
+            <div class="num">4</div>
+            <h3>Acompanhamento</h3>
+          </div>
+          <p>Medimos resultados e ajustamos a rota, garantindo evolução contínua e sustentável.</p>
+        </div>
+      </div>
+      <div class="hero-keywords process-keywords reveal" aria-label="Jeito de fazer da Eliora RH">
+        <span>Sob medida</span>
+        <span class="dot" aria-hidden="true">&#183;</span>
+        <span>Humano</span>
+        <span class="dot" aria-hidden="true">&#183;</span>
+        <span>Estratégico</span>
+        <span class="dot" aria-hidden="true">&#183;</span>
+        <span>Prático</span>
+        <span class="dot" aria-hidden="true">&#183;</span>
+        <span>Baseado em diagnóstico</span>
+        <span class="dot" aria-hidden="true">&#183;</span>
+        <span>Orientado a resultados</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- PARCEIROS (linha de molduras) ---------- -->
+  <section class="partners" id="parceiros">
+    <div class="wrap">
+      <div class="training-sub reveal">
+        <p class="eyebrow">Clientes e parceiros</p>
+        <h3>Parte da nossa história</h3>
+        <p>Cada parceiro soma experiência, propósito e confiança ao nosso trabalho.</p>
+      </div>
+      <div class="partner-row reveal">
+        <!-- Adicione cada parceiro como um .partner-item (moldura + descrição) -->
+        <div class="partner-item">
+          <div class="partner-frame">
+            <img src="assets/icons/Atual Consultoria Financeira.jpg" alt="Atual Consultoria Empresarial Financeira">
+          </div>
+          <p class="partner-name">Atual Consultoria Empresarial Financeira</p>
+        </div>
+        <div class="partner-item">
+          <div class="partner-frame">
+            <img src="assets/icons/Marlon Lima Advocacia.png" alt="Marlon Lima Advocacia Especializada">
+          </div>
+          <p class="partner-name">Marlon Lima<br>Advocacia Especializada</p>
+        </div>
+        <div class="partner-item">
+          <div class="partner-frame">
+            <img src="assets/icons/Grola Corretora.jpg" alt="Grola Corretora e Negócios Imobiliários">
+          </div>
+          <p class="partner-name">Grola Corretora e Negócios Imobiliários</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- CTA ---------- -->
+  <section class="cta" id="contato" data-section-theme="dark">
+    <div class="wrap">
+      <p class="eyebrow">O próximo passo</p>
+      <h2>Pronto para colocar as pessoas no centro da sua estratégia?</h2>
+      <p>Fale com a nossa equipe e descubra como podemos apoiar a gestão de pessoas da sua empresa.</p>
+      <div class="btn-row">
+        <a href="https://eliorarh.netlify.app/" target="_blank" rel="noopener" class="btn btn-primary">Agende uma
+          conversa</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- FOOTER ---------- -->
+  <footer data-section-theme="dark">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand-col">
+          <img src="assets/images/Eliora_RH_Logo_SemBordas.png" alt="Eliora RH">
+        </div>
+        <div class="foot-nav-col">
+          <h4>Navegação</h4>
+          <ul class="foot-nav">
+            <li><a href="#top">Início</a></li>
+            <li><a href="#significado">A marca</a></li>
+            <li><a href="#pilares">Pilares</a></li>
+            <li><a href="#treinamentos">Treinamentos</a></li>
+            <li><a href="#abordagem">Abordagem</a></li>
+            <li><a href="#valores">Valores</a></li>
+          </ul>
+        </div>
+        <div class="foot-contact-col">
+          <h4>Contato</h4>
+          <ul>
+            <li><a href="mailto:eliorarh@gmail.com">eliorarh@gmail.com</a></li>
+            <li><a href="tel:+5544988378110">+55 44 98837-8110</a></li>
+            <li><a href="https://www.google.com/maps/search/?api=1&query=Campo+Mour%C3%A3o%2C+PR"
+                class="foot-location">Campo Mourão, PR</a></li>
+          </ul>
+        </div>
+        <div class="foot-social-col">
+          <h4>Redes sociais</h4>
+          <div class="foot-social">
+            <a href="https://instagram.com/eliora.rh" class="soc-instagram" aria-label="Instagram"><svg
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="2.8" y="2.8" width="18.4" height="18.4" rx="5.4" />
+                <circle cx="12" cy="12" r="4.1" />
+                <circle cx="17.3" cy="6.7" r="1.05" fill="currentColor" stroke="none" />
+              </svg></a>
+            <a href="https://wa.me/5544988378110?text=Ol%C3%A1%2C%20Eliora%20RH!%20Vim%20pelo%20cart%C3%A3o%20e%20gostaria%20de%20conversar."
+              class="soc-whatsapp" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.019-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg></a>
+            <a href="https://linkedin.com" class="soc-linkedin" aria-label="LinkedIn"><svg viewBox="0 0 24 24"
+                fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+              </svg></a>
+            <a href="mailto:eliorarh@gmail.com" class="soc-email" aria-label="E-mail"><svg viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2.5" />
+                <path d="M3.5 7l8.5 5.5L20.5 7" />
+              </svg></a>
+            <a href="https://www.tiktok.com/@eliora.rh" class="soc-tiktok" aria-label="TikTok"><svg viewBox="0 0 24 24"
+                fill="currentColor">
+                <path
+                  d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z" />
+              </svg></a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Campo+Mour%C3%A3o%2C+PR" class="soc-location"
+              aria-label="Localização"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 21.5s6.8-6.6 6.8-11.4a6.8 6.8 0 10-13.6 0c0 4.8 6.8 11.4 6.8 11.4z" />
+                <circle cx="12" cy="10" r="2.5" />
+              </svg></a>
+          </div>
+        </div>
+      </div>
+      <p class="foot-tagline"><span>Olhar técnico, <em>Sensibilidade humana</em></span></p>
+      <div class="foot-bottom">
+        <p>© 2026 Eliora RH: Consultoria em RH. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <!-- <script src="js/partners-slider.js" defer></script> -->
+</body>
+
+</html>

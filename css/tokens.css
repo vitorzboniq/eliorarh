@@ -1,0 +1,16 @@
+/* ---------- DESIGN TOKENS ---------- */
+/* Paleta de cores e tipografias da marca Eliora RH. */
+:root{
+  --plum: #471C3D;
+  --plum-deep: #2E1228;
+  --mauve: #7C4A6B;
+  --gold: #D4A26A;
+  --gold-light: #E8C79A;
+  --cream: #F2E9E2;
+  --cream-soft: #FAF5F0;
+  --grey: #333333;
+  --grey-mid: #4A4A4A; /* texto corrido sobre fundos claros (já utilizado no design) */
+  --white: #FFFFFF;
+  --serif: 'Playfair Display', Georgia, serif;
+  --sans: 'Montserrat', -apple-system, sans-serif;
+}

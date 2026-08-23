@@ -1,0 +1,27 @@
+[
+  {
+    "item": "ancora #pilares navega (smooth)",
+    "result": "PASS",
+    "evidence": "top=0"
+  },
+  {
+    "item": "ancora #valores navega (smooth)",
+    "result": "PASS",
+    "evidence": "top=0"
+  },
+  {
+    "item": "deep link #contato rola ate secao",
+    "result": "PASS",
+    "evidence": "top=0"
+  },
+  {
+    "item": "tab alcanca links navegacao",
+    "result": "PASS",
+    "evidence": "['A#top', 'A#significado', 'A#pilares', 'A#abordagem', 'A#valores', 'A#contato', 'A#contato', 'A#pilares']"
+  },
+  {
+    "item": "burger acionado via teclado Enter (375)",
+    "result": "PASS",
+    "evidence": "open=True"
+  }
+]

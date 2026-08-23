@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "orchestrator",
+  "instructions": ["AGENTS.md"],
+  "compaction": {
+    "auto": true,
+    "prune": true,
+    "tail_turns": 6
+  },
+  "tool_output": {
+    "max_lines": 800,
+    "max_bytes": 30000
+  },
+  "permission": "allow",
+  "skills": {
+    "paths": [".agents/skills"]
+  },
+  "lsp": false
+}

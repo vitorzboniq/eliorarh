@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = "echo 'Site HTML estático - nenhum build necessário'"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
