@@ -53,6 +53,41 @@ Brand: ameixa profunda (plum) + dourado (gold) + creme. Tom consultivo e humano:
 - `responsive` implementa/corrige CSS responsivo (media queries, breakpoints 980/900/768/640, overflow); `mobile` apenas valida (read-only).
 - Antes de "concluir", validar: HTML/CSS/JS sintaticamente corretos + carregam sem 404 no servidor local.
 
+## Versionamento
+
+Este é um site estático (HTML + CSS + JS puro), sem build, framework ou package.json. O versionamento segue um modelo simplificado:
+
+### Versões atuais
+- **1.1.0** (2026-08-23) — Reorganização de docs, remoção de graphify-out, reestruturação de auditoria, navegação alterada
+- **1.0.0** (2026-08-22) — Versão inicial: site estático com todas as páginas (hero → significado → pilares → valores → treinamentos → abordagem → parceiros → contato → footer)
+
+### Como registrar uma nova versão
+
+1. **Commit com mensagem descritiva** — use prefixos úteis:
+   - `feat:` nova funcionalidade ou página
+   - `fix:` correção de bug ou problema de layout
+   - `docs:` alterações de documentação (AGENTS.md, DESIGN.md, CHANGELOG.md)
+   - `design:` mudanças no DESIGN.md (tokens, layout, componentes)
+   - `refactor:` reestruturação de código sem mudar comportamento
+   - `chore:` tarefas internas (atualização de .gitignore, .opencode, config)
+   - `test:` adição ou ajuste de testes/validações
+
+2. **Atualizar o CHANGELOG.md** — adicionar entrada na seção correspondente da versão mais recente no topo (`## [X.Y.Z] — YYYY-MM-DD`). Use as categorias: Documentação, Documentos Criados/Atualizados, Navegação, Design Tokens.
+
+3. **Não há bump automático** — como não há package.json, o número de versão é definido manualmente com base em marcos significativos (lançamento de nova seção, redesign completo, reestruturação major de arquivos).
+
+### Fluxo de versionamento
+
+```
+mudança no código/conteúdo → commit com mensagem → atualizar CHANGELOG.md → git push → tag opcional
+```
+
+### Notas
+
+- O número de versão **não indica compatibilidade** (não há cliente que quebre com mudanças); ele apenas faz histórico.
+- Quebras de design ou estrutura de seções podem pular de `1.0.0` para `1.1.0` ou `2.0.0` conforme o impacto.
+- O CHANGELOG sempre deve ser atualizado antes do push final; ele serve como histórico público do que mudou no portfólio.
+
 
 
 
