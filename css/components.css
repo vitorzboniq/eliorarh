@@ -587,7 +587,7 @@
   text-align: left;
 }
 
-/* Fundo claro: citação mauve (mesma cor do hebraico .etym) */
+/* Fundo claro: citação na cor roxa da marca (mauve) — mesma do Significado */
 .training .quote-band blockquote,
 .values .quote-band blockquote {
   color: var(--mauve);
