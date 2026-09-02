@@ -141,12 +141,12 @@ header.scrolled .burger span{ background: var(--plum); }
    ============================================================ */
 footer{
   background: var(--plum-deep);
+  width: 100%;
   padding: 16px 0 10px;
+  box-sizing: border-box;
 }
 /* Compactação horizontal do footer: conteúdo mais centralizado */
-footer .wrap{
-  max-width: 980px;
-}
+
 .foot-grid{
   display:grid;
   grid-template-columns: repeat(4, 1fr);

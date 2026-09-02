@@ -1,5 +1,16 @@
 # Changelog — Eliora RH Site
 
+## [1.1.1] — 2026-09-01
+
+### Correções
+- Footer e seções escuras (abordagem, CTA) voltaram a ocupar 100% da largura da viewport
+- Causa raiz: comentário HTML em `index.html` (trecho "Trilhas" oculto) engolia as tags de fechamento da seção de treinamentos, aninhando as seções seguintes dentro do `.wrap` (max-width 1180px)
+- Removido workaround `margin: 0 calc(50% - 50vw)` (full-bleed) de `.process`, `.cta` e `footer` — desnecessário após a correção estrutural
+- Removido bloco morto de CSS do footer mobile em `css/responsive.css` (layout antigo de 3 colunas)
+- Footer volta a usar `width: 100%` + `box-sizing: border-box`
+
+---
+
 ## [1.1.0] — 2026-08-23
 
 ### Documentação

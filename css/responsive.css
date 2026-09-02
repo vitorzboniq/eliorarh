@@ -262,51 +262,7 @@
   .method-step,
   .trilha-card{ padding: 14px; }
 
-  /* PARCEIROS — linha de molduras (parceiros reais) */
-
-/* ---------- FOOTER MOBILE (≤640px) ----------
-   Contato à esquerda, logo no centro, Redes sociais à direita.
-   Colunas nas extremidades com espaçamento de borda. */
-  .foot-grid{
-    grid-template-columns: 1fr auto 1fr; /* auto: logo protegida por width+max-width:none no img */
-    grid-template-areas: "contact brand social";
-    gap: 16px 12px;
-    padding: 0 20px; /* espaçamento de borda */
-  }
-  .foot-nav-col{ display:none; }
-  .foot-contact-col{ grid-area: contact; justify-self: start; }
-  .foot-social-col{ grid-area: social; justify-self: end; }
-  .foot-brand-col{ grid-area: brand; align-items: center; justify-content: center; }
-  .foot-brand-col img{ width: 72px; max-width: none; margin: 0; }
-
-  /* Reset das colunas (desktop usa align-items:flex-start + margin-left:60px) */
-  .foot-brand-col,
-  .foot-contact-col,
-  .foot-social-col{ align-items: stretch; margin-left: 0; }
-
-  /* Contato: lista em coluna com espaçamento reduzido */
-  .foot-contact-col ul{
-    display: flex;
-    flex-direction: column;
-    gap: 4px; /* espaçamento entre linhas reduzido */
-    width: max-content;
-  }
-  .foot-contact-col li{ font-size: 10px; line-height: 1.4; }
-  .foot-contact-col a{ overflow-wrap: break-word; }
-
-  /* Redes sociais: grade 3×2 compacta, título + ícones à direita */
-  .foot-social-col{ align-items: flex-end; }
-  .foot-social-col h4{ width: auto; text-align: right; margin: 0 0 6px; font-size: 9px; letter-spacing: 1.2px; }
-  .foot-social{
-    display: grid;
-    grid-template-columns: repeat(3, 28px);
-    gap: 6px;
-    justify-content: flex-end;
-    margin: 0;
-  }
-  .foot-social a{ width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; }
-  .foot-social a svg{ width: 14px; height: 14px; }
-}
+  /* PARCEIROS — linha de molduras (parceiros reais) */}
 
 /* Botão fixo de contato no header (mobile) — oculto por padrão
    (desktop usa o CTA da nav); visível apenas em ≤768px. */
