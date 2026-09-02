@@ -4,14 +4,15 @@
      container compactado a 980px centralizado.
    - ≤980px: 2 colunas; recuos mantidos (logo/nav/contact 60px esquerda,
      social 60px direita título+ícones).
-   - ≤640px: 1 coluna empilhada; recuos zerados, colunas à esquerda,
-     coluna social acompanha com título+ícones juntos à esquerda.
+   - ≤640px: 3 colunas (Contato | Logo | Redes sociais); navegação
+     oculta; contato à esquerda, logo centralizada, redes à direita;
+     copyright centralizado abaixo.
    COLUNA DE REDES SOCIAIS — PADRÃO DE ALINHAMENTO (ver css/layout.css):
    - Desktop/tablet (≤980px): título + ícones juntos, alinhados à direita
      (.foot-social-col align-items:flex-end; título margin-right:60px;
       ícones justify-content:end; margin-right:60px)
-   - Mobile (≤640px): título + ícones continuam juntos, mas alinhados à
-     esquerda (flex-start) para acompanhar as colunas empilhadas.
+   - Mobile (≤640px): título + ícones continuam juntos, alinhados à
+     direita (flex-end) na coluna de redes sociais.
    Mantenha título e ícones sempre na mesma base de alinhamento. */
 @media (max-width: 980px){
   .hero .wrap{ grid-template-columns: 1fr; text-align:center; }
@@ -78,19 +79,24 @@
 @media (max-width: 640px){
   .pillar-grid{ grid-template-columns: 1fr; }
   .timeline{ grid-template-columns: 1fr; }
-  .foot-grid{ grid-template-columns: 1fr; gap: 34px; }
-  /* Logo com distanciamento da borda esquerda — no mobile empilhado o
-     recuo é zerado para acompanhar as colunas alinhadas à esquerda */
-  .foot-brand-col img{ margin-left: 0; }
-  .foot-nav-col,
-  .foot-contact-col{ margin-left: 0; }
-  /* Mantém o padrão: título e ícones das redes sociais alinhados juntos,
-     mas alinhados à esquerda para acompanhar as demais colunas empilhadas */
-  .foot-social-col{ align-items:flex-start; }
-  .foot-social-col h4{ text-align:left; margin-right:0; }
-  .foot-social{ justify-content:start; margin-right:0; }
-  .foot-bottom{ flex-direction:column; align-items:center; }
-  .foot-bottom p{ text-align:center; }
+  /* FOOTER MOBILE — 3 colunas (Contato | Logo | Redes sociais):
+     Navegação oculta (decisão do usuário); contato à esquerda, logo
+     centralizada, redes sociais à direita; copyright centralizado abaixo. */
+  .foot-grid{ grid-template-columns: repeat(3, 1fr); grid-template-areas: "contact logo social"; align-items: start; gap: 0 12px; }
+  .foot-contact-col{ grid-area: contact; align-items: flex-start; margin-left: 0; }
+  .foot-contact-col h4{ margin-bottom: 8px; }
+  .foot-contact-col ul li{ margin-bottom: 6px; }
+  .foot-contact-col ul li a{ font-size: 11px; line-height: 1.5; overflow-wrap: anywhere; }
+  .foot-brand-col{ grid-area: logo; align-items: center; }
+  .foot-brand-col img{ width: 90px; height: auto; margin-left: 0; margin-bottom: 0; }
+  .foot-nav-col{ display: none; }
+  .foot-social-col{ grid-area: social; align-items: flex-end; }
+  .foot-social-col h4{ width: auto; text-align: right; margin-right: 0; margin-bottom: 8px; }
+  .foot-social{ grid-template-columns: repeat(3, 30px); gap: 5px; justify-content: end; margin-right: 0; }
+  .foot-social a{ width: 30px; height: 30px; }
+  .foot-social a svg{ width: 13px; height: 13px; }
+  .foot-bottom{ margin-top: 22px; flex-direction: column; align-items: center; }
+  .foot-bottom p{ font-size: 10px; text-align: center; overflow-wrap: break-word; }
   .method-grid{ grid-template-columns: 1fr; }
   .trilhas{ grid-template-columns: 1fr; }
   .formatos{ grid-template-columns: 1fr; }
@@ -216,12 +222,12 @@
   .training .wrap{ max-width: none; padding: 0 20px; }
 
   /* FOOTER */
-  .foot-grid{ gap: 26px; }
+  footer{ padding: 28px 0 14px; }
   /* Ícones sociais: área de toque maior sem mudar o visual */
   .foot-social a{ position: relative; }
   .foot-social a::after{ content: ''; position: absolute; inset: -5px; }
   /* Tagline não estoura em telas estreitas (texto + linhas douradas) */
-  .foot-tagline{ gap: 10px; }
+  .foot-tagline{ gap: 10px; margin-top: 24px; }
   .foot-tagline::before,
   .foot-tagline::after{ min-width: 12px; }
   .foot-tagline span{ font-size: 13px; }
