@@ -2,6 +2,10 @@
 
 ## [1.1.1] — 2026-09-01
 
+### Design
+- Footer mobile (≤640px) reestruturado em 3 colunas (Contato | Logo | Redes sociais) com copyright centralizado; navegação oculta no mobile (decisão do usuário)
+- Contato compacto em linha única (nowrap, 10px) com a última linha alinhada à base dos ícones sociais; ícones mantidos em 30px
+
 ### Correções
 - Footer e seções escuras (abordagem, CTA) voltaram a ocupar 100% da largura da viewport
 - Causa raiz: comentário HTML em `index.html` (trecho "Trilhas" oculto) engolia as tags de fechamento da seção de treinamentos, aninhando as seções seguintes dentro do `.wrap` (max-width 1180px)

@@ -137,7 +137,9 @@ header.scrolled .burger span{ background: var(--plum); }
        (ver bloco documentado abaixo)
    Responsivo (responsive.css):
      - ≤980px : 2 colunas, padrão de recuo mantido
-     - ≤640px : 1 coluna empilhada, recuos zerados, social à esquerda
+     - ≤640px : 3 colunas (Contato | Logo | Redes sociais), navegação
+        oculta, contato à esquerda, logo centralizada, redes à direita,
+        copyright centralizado abaixo
    ============================================================ */
 footer{
   background: var(--plum-deep);
@@ -183,8 +185,8 @@ footer h4{
    recuados da borda direita do footer (margem direita própria).
    Regras correspondentes no responsive.css:
      - ≤980px : mantém alinhamento à direita (mesmo padrão desktop)
-     - ≤640px : vira flex-start (esquerda) para acompanhar as
-                colunas empilhadas, título + ícones continuam juntos
+     - ≤640px : título + ícones continuam juntos, alinhados à direita
+                (flex-end) na coluna de redes sociais do layout 3 colunas
    NÃO alterar título e ícones de forma independente — eles devem
    compartilhar a mesma base de alinhamento.
    ============================================================ */

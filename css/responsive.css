@@ -83,15 +83,22 @@
      Navegação oculta (decisão do usuário); contato à esquerda, logo
      centralizada, redes sociais à direita; copyright centralizado abaixo. */
   .foot-grid{ grid-template-columns: repeat(3, 1fr); grid-template-areas: "contact logo social"; align-items: start; gap: 0 12px; }
-  .foot-contact-col{ grid-area: contact; align-items: flex-start; margin-left: 0; }
-  .foot-contact-col h4{ margin-bottom: 8px; }
-  .foot-contact-col ul li{ margin-bottom: 6px; }
-  .foot-contact-col ul li a{ font-size: 11px; line-height: 1.5; overflow-wrap: anywhere; }
+  /* Alinhamento "linha imaginária": a coluna social (h4 + grade 65px) é a
+     mais alta da linha; a coluna de contato estica (align-self: stretch) e
+     a lista desce até a base (space-between) — última linha de contato
+     alinhada com a base dos ícones. Invariante: altura social ≥ conteúdo
+     de contato e h4s com o mesmo line-height (senão o alinhamento quebra
+     silenciosamente). */
+  .foot-contact-col{ grid-area: contact; align-items: flex-start; margin-left: 0; align-self: stretch; justify-content: space-between; }
+  .foot-contact-col h4{ margin-bottom: 6px; white-space: nowrap; }
+  .foot-contact-col ul li{ margin-bottom: 5px; font-size: 10px; line-height: 1.4; }
+  .foot-contact-col ul li:last-child{ margin-bottom: 0; }
+  .foot-contact-col ul li a{ white-space: nowrap; font-size: 10px; line-height: 1.4; }
   .foot-brand-col{ grid-area: logo; align-items: center; }
   .foot-brand-col img{ width: 90px; height: auto; margin-left: 0; margin-bottom: 0; }
   .foot-nav-col{ display: none; }
   .foot-social-col{ grid-area: social; align-items: flex-end; }
-  .foot-social-col h4{ width: auto; text-align: right; margin-right: 0; margin-bottom: 8px; }
+  .foot-social-col h4{ width: auto; text-align: right; margin-right: 0; margin-bottom: 6px; white-space: nowrap; }
   .foot-social{ grid-template-columns: repeat(3, 30px); gap: 5px; justify-content: end; margin-right: 0; }
   .foot-social a{ width: 30px; height: 30px; }
   .foot-social a svg{ width: 13px; height: 13px; }
@@ -309,7 +316,7 @@
 
 /* Footer em telas muito estreitas (≤360px): compacta para caber 3 colunas */
 @media (max-width: 360px){
-  .foot-grid{ gap: 16px 8px; padding: 0 14px; }
+  .foot-grid{ gap: 16px 8px; padding: 0; }
   .foot-brand-col img{ width: 56px; }
   .foot-social{
     grid-template-columns: repeat(3, 24px);
@@ -327,7 +334,7 @@
   /* Logo do hero oculta em telas pequenas (header e footer já exibem a marca) */
   .hero-logo{ display:none; }
   /* Footer copyright em linha única com fonte menor */
-  .foot-bottom p{ font-size: 11px; line-height: 1.4; white-space: nowrap; }
+  .foot-bottom p{ font-size: 10px; line-height: 1.4; white-space: nowrap; }
 }
 
 /* Copyright quebra em telas muito estreitas — deve vir DEPOIS do bloco ≤480px na cascata */
