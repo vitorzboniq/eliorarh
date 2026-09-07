@@ -181,8 +181,8 @@ Seção em fundo branco com **faixas escuras de largura total** (`margin: 0 calc
 | Eyebrow | `.eyebrow` / `.eyebrow.on-dark` | mauve sobre claro; gold sobre escuro |
 | Botão primário | `.btn-primary` | gold bg, plum-deep text, radius 2px, uppercase |
 | Botão ghost | `.btn-ghost` | borda cream, hover gold |
-| Glyph circular | `.pillar-glyph` / `.trilha-glyph` | 42–46px, borda gold, hover preenchido |
-| Número circular | `.step .num` / `.method-step .num` | Playfair, gradiente dourado |
+| Glyph circular | `.pillar-glyph` / `.trilha-glyph` / `.step .num` / `.trainer-avatar` | sólido gold, texto plum-deep 900, 42–48px (28px mobile), hover inverte p/ outline gold |
+| Número circular | `.method-step .num` / `.mv-circle` | sólido plum, texto gold 900 (Playfair), hover gold bg + plum text |
 | Card | `.pillar-card` / `.trilha-card` / `.trainer-card` / `.mv-card` / `.formato-item` | padrão de borda/hover |
 | Pills | `.value-pills span` | radius 30px |
 | Moldura de parceiro | `.partner-frame` | padrão `.method-step` (fundo dourado suave, borda sutil, cantos retos); tooltip `.partner-name` no hover |

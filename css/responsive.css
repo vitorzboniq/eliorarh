@@ -173,10 +173,9 @@
   .trainer-avatar{
     width: 28px;
     height: 28px;
-    font-size: 13px;
-    border-width: 1.2px;
+    font-size: 18px;
+    border-width: 1.5px;
   }
-  .method-step .num{ line-height: 28px; }
   /* Gap glyph ↔ título também compactado */
   .step-head,
   .pillar-head,

@@ -300,24 +300,26 @@
 }
 
 .pillar-glyph {
-  width: 42px;
-  height: 42px;
-  border: 1.4px solid var(--gold);
+  width: 44px;
+  height: 44px;
+  background: var(--plum);
+  border: 1.5px solid var(--gold);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--serif);
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 900;
   color: var(--gold);
   flex-shrink: 0;
-  transition: all .35s ease;
+  transition: background .3s ease, color .3s ease, border-color .3s ease;
 }
 
 .pillar-card:hover .pillar-glyph {
   background: var(--gold);
-  color: var(--plum-deep);
+  color: var(--plum);
+  border-color: var(--gold);
 }
 
 .pillar-card h3 {
@@ -329,8 +331,8 @@
 .pillar-card p {
   font-size: 14px;
   color: rgba(242, 233, 226, 0.68);
-  /* Alinha com a primeira letra do título (ícone 42px + gap 14px) */
-  padding-left: 56px;
+  /* Alinha com a primeira letra do título (ícone 44px + gap 14px) */
+  padding-left: 58px;
   max-width: 360px;
   line-height: 1.6;
 }
@@ -388,25 +390,26 @@
 }
 
 .step .num {
-  font-family: var(--serif);
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: .5px;
-  color: var(--gold);
-  border: 1.4px solid var(--gold);
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
+  background: var(--plum);
+  border: 1.5px solid var(--gold);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 900;
+  color: var(--gold);
   flex-shrink: 0;
-  transition: all .35s ease;
+  transition: background .3s ease, color .3s ease, border-color .3s ease;
 }
 
 .step:hover .num {
   background: var(--gold);
-  color: var(--plum-deep);
+  color: var(--plum);
+  border-color: var(--gold);
 }
 
 .step h3 {
@@ -419,8 +422,8 @@
 .step p {
   font-size: 14px;
   color: rgba(242, 233, 226, 0.68);
-  /* Alinha com a primeira letra do título (número 42px + gap 12px) */
-  padding-left: 54px;
+  /* Alinha com a primeira letra do título (número 44px + gap 12px) */
+  padding-left: 56px;
   line-height: 1.55;
   text-wrap: balance;
 }
@@ -683,8 +686,8 @@
   align-items: center;
   justify-content: center;
   font-family: var(--serif);
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 900;
   color: var(--gold);
   flex-shrink: 0;
   border: 1.5px solid transparent;
@@ -883,8 +886,8 @@
 }
 
 .trainer-avatar {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   background: var(--plum);
   border: 1.5px solid var(--gold);
@@ -892,16 +895,17 @@
   align-items: center;
   justify-content: center;
   font-family: var(--serif);
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 900;
   color: var(--gold);
   flex-shrink: 0;
-  transition: background .3s ease, color .3s ease;
+  transition: background .3s ease, color .3s ease, border-color .3s ease;
 }
 
 .trainer-card:hover .trainer-avatar {
   background: var(--gold);
-  color: var(--plum-deep);
+  color: var(--plum);
+  border-color: var(--gold);
 }
 
 .trainer-card:hover {
@@ -939,8 +943,8 @@
   font-size: 14.5px;
   color: rgba(242, 233, 226, 0.68);
   margin-bottom: 0;
-  /* Alinha com a primeira letra do nome (avatar 48px + gap 16px) */
-  padding-left: 64px;
+  /* Alinha com a primeira letra do nome (avatar 44px + gap 16px) */
+  padding-left: 60px;
 }
 
 .trainer-areas {
@@ -948,8 +952,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  /* Alinha com a primeira letra do nome (avatar 48px + gap 16px) */
-  padding-left: 64px;
+  /* Alinha com a primeira letra do nome (avatar 44px + gap 16px) */
+  padding-left: 60px;
 }
 
 .trainer-areas span {
@@ -1000,15 +1004,16 @@
 
 .method-step .num {
   font-family: var(--serif);
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 900;
   color: var(--gold);
   background: var(--plum);
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  text-align: center;
-  line-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
   border: 1.5px solid transparent;
   /* evita deslocamento no hover */
@@ -1072,22 +1077,24 @@
 .trilha-glyph {
   width: 42px;
   height: 42px;
-  border: 1.4px solid var(--gold);
+  background: var(--gold);
+  border: 2px solid var(--gold);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--serif);
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--gold);
+  font-size: 26px;
+  font-weight: 900;
+  color: var(--plum-deep);
   flex-shrink: 0;
   transition: all .35s ease;
 }
 
 .trilha-card:hover .trilha-glyph {
-  background: var(--gold);
-  color: var(--plum-deep);
+  background: transparent;
+  color: var(--gold);
+  border-color: var(--gold);
 }
 
 .trilha-card h3 {

@@ -1,5 +1,15 @@
 # Changelog — Eliora RH Site
 
+## [1.1.2] — 2026-09-07
+
+### Design
+- Glyphs circulares padronizados no padrão Missão (fundo `plum`, letra serif 26px 900 `gold`, borda gold 1.5px, hover sem borda roxa): Pilares (`.pillar-glyph`), Abordagem (`.step .num`) e Facilitadoras (`.trainer-avatar`) em `css/components.css`
+- Alinhamento de texto dos cards reajustado ao novo tamanho 44px (`padding-left` 58px/56px/60px)
+- Mobile (≤640px): glyphs compactados a 28px/18px com `border-width` 1.5px em `css/responsive.css`
+- `DESIGN.md`: tabela de glyphs/números atualizada ao novo padrão
+
+---
+
 ## [1.1.1] — 2026-09-01
 
 ### Design
