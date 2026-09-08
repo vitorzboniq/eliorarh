@@ -129,8 +129,8 @@ Seção em fundo branco com **faixas escuras de largura total** (`margin: 0 calc
 - Card com `badge`/papel dourado e tags de áreas (`rgba(212,162,106,0.35)`).
 - **Hover nas tags (15/08):** papel (`.trainer-role:hover`) e tags de áreas (`.trainer-areas span:hover`) preenchem com `var(--gold)` e texto `var(--plum)` — mesmo padrão das pills de valores.
 
-**Metodologia** — 4 etapas numeradas (01–04) em cards brancos com num dourado circular:
-- Briefing → Diagnóstico → Desenho sob medida → Aplicação e acompanhamento.
+**Metodologia** — Método ELIORA®: 6 passos com letras-glyph (E/L/I/O/R/A) em grade 3x2, cards claros com num plum:
+- Explorar → Ligar → Interagir → Operacionalizar → Refletir → Agir.
 
 **Trilhas** (`trilhas-band` faixa escura) — grid 3 colunas:
 - 6 cards: Onboarding e Integração; Times de Alta Performance; **Desenvolvimento de Liderança (CARRO-CHEFE)**; Cultura e Engajamento; Inteligência Emocional; Comunicação e Feedback.

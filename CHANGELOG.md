@@ -1,5 +1,22 @@
 # Changelog — Eliora RH Site
 
+## [1.2.0] — 2026-09-08
+
+### Conteúdo
+- Metodologia vira Método ELIORA®: título + intro novos e 6 passos (Explorar → Ligar → Interagir → Operacionalizar → Refletir → Agir) com glyphs-letras E/L/I/O/R/A em `index.html`
+- LinkedIn do rodapé aponta para `https://www.linkedin.com/company/eliorarh`
+
+### Design
+- Grade da Metodologia em 3x2 no desktop (`.method-grid`), 2 colunas ≤980px e 1 coluna no mobile
+- Centralização ótica dos números nos glyphs (`.step .num`, `.method-step .num`): `line-height: 1` + `translateY(-1px)`
+- `DESIGN.md`: seção Metodologia atualizada para os 6 passos ELIORA®
+
+### Responsivo (mobile ≤640px)
+- Tags de Valores (`.value-pills`) reexibidas: grade 2 colunas uniforme + última full-width, compactas (11.5px) e fixas no visual do hover (fundo plum, texto gold)
+- Facilitadoras: nome + tag da profissão (Psicóloga/Pedagoga) na mesma linha (grid `auto 1fr auto`)
+
+---
+
 ## [1.1.2] — 2026-09-07
 
 ### Design
