@@ -1,5 +1,17 @@
 # Changelog — Eliora RH Site
 
+## [1.3.0] — 2026-09-08
+
+### Conteúdo
+- Facilitadoras vira "Quem faz a Eliora acontecer": eyebrow, título "Duas histórias. Um propósito.", subtítulo em frase única e quote de fechamento no padrão Pilares (com aspas) em `index.html`
+- Cards com nomes em maiúsculas (MICHELLY/GIOVANA) e tags "Psicóloga | Cofundadora" / "Pedagoga | Cofundadora"
+- Bios e áreas de atuação ocultas via comentário (não descomentar até segunda ordem)
+
+### Responsivo (mobile ≤640px)
+- Nome + tag da profissão na mesma fileira (grid `auto 1fr auto`); tag compacta (10px) e quebra em 2 linhas ao lado do nome em ≤360px
+
+---
+
 ## [1.2.0] — 2026-09-08
 
 ### Conteúdo

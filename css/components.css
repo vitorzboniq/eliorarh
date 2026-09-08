@@ -603,6 +603,12 @@
   color: rgba(242, 233, 226, 0.68);
 }
 
+/* Facilitadoras (fundo escuro): mesmo padrão do quote dos Pilares
+   (sobrescreve o mauve de .training, feito para fundos claros) */
+.facilitadoras .quote-band blockquote {
+  color: rgba(242, 233, 226, 0.68);
+}
+
 /* ---------- CTA ---------- */
 .cta {
   background: linear-gradient(180deg, var(--plum), var(--plum));

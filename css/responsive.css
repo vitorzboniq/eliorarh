@@ -154,8 +154,8 @@
   .mv-card{ padding: 18px 18px; }
   .trainer-card{ padding: 22px 18px; grid-template-columns: auto 1fr auto; row-gap: 12px; column-gap: 14px; }
   /* Nome + tag da profissão na mesma linha (avatar | nome | tag) */
-  .trainer-card h3{ grid-column: 2; grid-row: 1; }
-  .trainer-role{ grid-column: 3; grid-row: 1; align-self: center; }
+  .trainer-card h3{ grid-column: 2; grid-row: 1; font-size: 16px; }
+  .trainer-role{ grid-column: 3; grid-row: 1; align-self: center; font-size: 10px; letter-spacing: 1px; padding: 4px 10px; white-space: nowrap; }
   .trainer-card p,
   .trainer-areas{ padding-left: 0; }
   .pillar-card p,
@@ -347,4 +347,11 @@
 /* Copyright quebra em telas muito estreitas — deve vir DEPOIS do bloco ≤480px na cascata */
 @media (max-width: 360px){
   .foot-bottom p{ white-space: normal; }
+}
+
+/* Facilitadoras em telas muito estreitas (≤360px): a tag longa
+   ("Psicóloga | Cofundadora") quebra em 2 linhas ao lado do nome,
+   mantendo nome + tag na mesma fileira sem overflow */
+@media (max-width: 360px){
+  .trainer-role{ white-space: normal; max-width: 132px; line-height: 1.5; }
 }
