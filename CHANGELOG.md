@@ -1,5 +1,12 @@
 # Changelog — Eliora RH Site
 
+## [1.3.2] — 2026-09-09
+
+### Correções
+- Quote das Facilitadoras em fundo escuro: seletor com especificidade alta (`section.training .facilitadoras .quote-band blockquote`) para vencer a cascata independente da ordem em `css/components.css`
+
+---
+
 ## [1.3.1] — 2026-09-09
 
 ### Documentação
