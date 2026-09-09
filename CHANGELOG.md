@@ -1,5 +1,12 @@
 # Changelog — Eliora RH Site
 
+## [1.3.1] — 2026-09-09
+
+### Documentação
+- Removida seção auto-gerada e desatualizada "Habilidades Free Models" (gerada em 2026-08-23) do `AGENTS.md`; ranking agora é gerado como artefato local `FREE_MODELS.html` (fora do git)
+
+---
+
 ## [1.3.0] — 2026-09-08
 
 ### Conteúdo
