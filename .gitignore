@@ -25,6 +25,9 @@ docs/
 # Graphify engine outputs — não publicar no GitHub público
 graphify-out/
 
+# Ranking de modelos gratuitos (gerado pela skill free-models-rank, sobrescrito a cada execução)
+FREE_MODELS.html
+
 # Arquivos do sistema do SO
 .DS_Store
 Thumbs.db
